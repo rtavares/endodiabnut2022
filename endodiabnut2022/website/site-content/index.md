@@ -1,3 +1,6 @@
+---
+layout: layouts/base.njk
+---
 # Congresso de Endocrinologia Diabetes e Nutrição - 2022
 
 ## Óbviamente em construção... :-)    
