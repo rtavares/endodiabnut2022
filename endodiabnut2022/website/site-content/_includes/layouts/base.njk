@@ -6,11 +6,20 @@
     <style>
         body {
             font-family: Arial;
+            background-color: #010722;
         }
+
+        footer {
+            text-align: center;
+        }
+
 
         .main {
             margin-left: 20%;
             margin-right: 20%;
+            background-color: antiquewhite;
+            padding: 20px;
+            border-radius: 15px;
         }
     </style>
 </head>
@@ -18,5 +27,8 @@
     <div class="main">
         {{ content | safe }}
     </div>
+    <footer>
+        <img src="assets/images/footer.png" alt="Footer">
+    </footer>
 </body>
 </html>

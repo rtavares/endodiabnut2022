@@ -56,6 +56,5 @@ Ponta Delgada, 6 de Dezembro de 2021
 
 Presidente do Congresso
 
-![Footer](assets/images/footer.png)
 
 ----
