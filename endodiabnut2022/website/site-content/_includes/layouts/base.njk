@@ -12,24 +12,28 @@
 
         footer {
             text-align: center;
-            margin-top: 7px;
+            margin-top: 17px;
         }
         img {
             border-radius: 15px;
+        }
+
+        .shadow {
+            box-shadow: 10px 10px 15px lightblue;
         }
 
         .main {
             margin-left: 15%;
             margin-right: 15%;
             background-color: antiquewhite;
-            opacity: 0.89;
+            opacity: 0.92;
             padding: 20px;
             border-radius: 15px;
         }
     </style>
 </head>
 <body>
-    <div class="main">
+    <div class="main shadow">
         {{ content | safe }}
     </div>
     <footer>
