@@ -8,11 +8,13 @@
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
+    "@tailwindcss/typography": "^0.5.7",
     "tailwindcss": "^3.1.8"
   },
   "scripts": {
-    "dev": "eleventy --serve --watch",
+    "dev-serve": "eleventy --serve --watch",
+    "build-css": "tailwind -i endodiabnut2022/website/site-content/_assets/css/base.tailwind.css -o _site/_assets/css/base.tailwind.css --watch",
     "build": "eleventy"
-  }
-
+  },
+  "dependencies": {}
 }

@@ -2,17 +2,14 @@
 layout: layouts/base.njk
 page_title: "Home | "
 ---
-# XVII Congresso de Endocrinologia Diabetes e Nutrição dos Açores - 2022
-# XVIII Jornadas de Diabetologia 
-# IX Simpósio Satélite
 
-Para aceder ao site do XVI Congresso - 2019, por favor clique [aqui](http://2019.endodiabnut.org): [http://2019.endodiabnut.org](http://2019.endodiabnut.org) .
 
-![Logo](assets/images/logo.png)    
+![Logo](/_assets/images/logo.png)    
   
-## Carta-Convite
+### Carta-Convite
 
-Caro Colega  
+Caro Colega,    
+
 
 O Serviço de Endocrinologia e Nutrição do Hospital do Divino Espírito Santo, tem em preparação o XVII Congresso de Endocrinologia e Nutrição dos Açores, as XVIII Jornadas de
 Diabetologia e o IX Simpósio Satélite de Nutrição, a realizar de 25 a 28 de Outubro do ano de 2022, em Ponta Delgada.
