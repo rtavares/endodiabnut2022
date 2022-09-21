@@ -11,10 +11,12 @@ layout: layouts/_components/base.njk
                 <p class="leading-relaxed mb-3">
                     {{ speaker.data.content | safe }}
                 </p>
-              Intervenções: <br>
-              {% for sessao in speaker.data.link_to %}
-                <a href="/programa/{{sessao}}/detail">{{sessao}}</a>
-              {% endfor %}
+                Intervenções: <br>
+                <div class="flex flex-row justify-center">
+                    {% for sessao in speaker.data.link_to %}
+                        <a class="p-3" href="/programa/{{sessao}}/detail">{{sessao}}</a>
+                    {% endfor %}
+                </div>
           </div>
       {% endfor %}
 </section>

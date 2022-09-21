@@ -8,4 +8,5 @@ Farmaçor, S.A.
 Av. Alberto I, Principe do Mónaco, 6 RC Dto.  
 Sta. Clara  
 9500-237 PONTA DELGADA 
-Telef: 296 305 180   
+Telef. geral: 296 305 180
+Telef. directo: 065 379 363 - Sandra Pereira

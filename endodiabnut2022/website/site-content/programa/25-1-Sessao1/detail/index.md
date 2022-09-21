@@ -2,12 +2,13 @@
 layout: layouts/program-detail.njk
 permalink: "programa/sessao1/detail/"
 ---
-TERÇA-FEIRA 25  
-SESSÃO 1 - Diabetes - Epidemiologia  
+### TERÇA-FEIRA 25  
+### SESSÃO 1   
+## Diabetes - Epidemiologia  
 MODERAÇÃO  
-PRESIDENTE:   
+**PRESIDENTE**:   
 • DR LUIS GARDETE CORREIA (LISBOA)   
-MODERADORES:   
+**MODERADORES**:   
 • DR JORGE PORTUGAL (LISBOA) /  
 • DR MACHADO SARAIVA (LISBOA) /   
 • DR SIMÕES PEREIRA (AVEIRO)   
