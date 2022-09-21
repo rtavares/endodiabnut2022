@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/cartaz.njk
 page_title: "Cartaz | "
 ---
 
