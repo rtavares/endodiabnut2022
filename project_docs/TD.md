@@ -19,6 +19,8 @@ EDN-02 - Add Tailwindcss
 
 EDN-03 - Create a propper text footer
 EDN-04 - Add provisory schedule
+EDN-05 - Add markdown-it attrs
+EDN-06 - Add markdown-it extended syntax
 
 -----
 
