@@ -1,14 +1,15 @@
 ---
 layout: layouts/program-detail.njk
 ---
-TERÇA-FEIRA 25    
-SESSÃO 2 - Diabetes - Diagnóstico e Monitorização
+**TERÇA-FEIRA 25**    
+**SESSÃO 2** - Diabetes - Diagnóstico e Monitorização
 MODERAÇÃO  
-PRESIDENTE: 
+**PRESIDENTE**: 
 • DR LUIS DIAS (PONTA DELGADA)    
-MODERADORES:    
+**MODERADORES**:    
 • PROFa DOUTORA SÓNIA DO VALE (LISBOA) /  
 • DRA CRISTINA VALADAS (LOURES)  
+
 10h 00m – 10h 15m – PRÉ-DIABETES: COMO ABORDAR?  
 • DRA REGINA MEDEIROS (PONTA DELGADA)   
 10h 15m – 10h 30m – DIABETES mellitus TIPO 2 - QUE FENOTIPOS CONSIDERAR PARA MELHOR TRATAR?    
