@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page_title }}Congresso de Endocrinologia Diabetes e Nutriçaao - 2022</title>
+    <link rel="stylesheet" href="/_assets/css/base.tailwind.css">
+
+</head>
+<body class="font-sans bg-[#010722] bg-[url('/_assets/images/Saco_bg.jpg')]">
+    <a id="top"></a>
+    <header class="mx-auto w-2/3 bg-gradient-to-b from-[#010722] to-[#438ac1]">
+        <div class="homepage-header-title text-sky-200 col-span-4 text-center flex items-center justify-center">
+            <a href="/">
+                <img class="scale-75" src="/_assets/images/LogoEDN_2022_75.png">
+            </a>
+            XVII Congresso de Endocrinologia <br>
+            e Nutrição dos Açores
+        </div>
+        <div class="homepage-header-title text-sky-200 text-center">
+        </div>
+        <div class="homepage-header-subtitle text-center text-white m-3">XVIII Jornadas de Diabetologia</div>
+        <div class="homepage-header-subtitle pb-3 text-sky-900 text-center">X Simpósio Satélite de Nutrição</div>
+        <div class="text-center text-sky-200 md:text-sm xl:text-xl">
+            TEATRO MICAELENSE - CENTRO DE CONGRESSOS DE PONTA DELGADA | SÃO MIGUEL | AÇORES <br> 25 A 28 DE OUTUBRO DE 2022
+        </div>
+
+        <div class="m-3 order-solid border-0 border-t border-white bg-[#010722] text-white mx-auto p-3 flex items-center justify-center">
+            <nav>
+                <a href="/">Home</a> |
+<!--                <a href="/">Programa provisório</a> |-->
+                <a href="/carta-convite">Carta Convite</a> |
+                <a href="/cartaz">Cartaz</a> |
+<!--                <a href="/">Carta Convite</a> |-->
+                <a href="http://2019.endodiabnut.org">Visite o site XVI congresso - 2019</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main class="main p-4 shadow mx-auto w-2/3 rounded-2xl">
+<!--        <div class="">-->
+        Content
+            {{ content | safe }}
+<!--        </div>-->
+    </main>
+
+    <footer class=" rounded-2xl mx-auto w-2/3 mb-4 mt-2 bg-white opacity-90 p-4">
+        {% include 'layouts/_components/footer.njk' %}
+    </footer>
+
+</body>
+</html>

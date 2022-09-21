@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    div h3 {
+        @apply text-center text-2xl;
+    }
+
+    div > p > img {
+        @apply mx-auto;
+    }
+
+    nav a {
+        @apply rounded hover:bg-white hover:text-black hover:p-1 hover:opacity-75;
+    }
+
+    .homepage-header-title {
+         @apply uppercase sm:text-sm md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl;
+    }
+
+    .homepage-header-subtitle {
+         @apply uppercase sm:text-sm md:text-3xl lg:text-3xl xl:text-5xl 2xl:text-6xl;
+    }
+
+    .shadow {
+        box-shadow: 10px 10px 15px lightblue;
+    }
+
+    .main {
+        opacity: 0.92;
+    }
+
+    .program-index {
+        @apply flex flex-col border border-black p-3 rounded rounded-2xl shadow shadow-black shadow-lg prose;
+    }
+}

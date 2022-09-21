@@ -1,0 +1,12 @@
+---
+layout: layouts/_components/base.njk
+---
+<div class="p-4 text-lg bg-white prose  p-4 rounded rounded-2xl">
+{{ content | safe }}
+
+    <div class="text-center">
+        <a href="javascript:history.back()">
+            <button class="w-1/2 bg-blue-600 rounded text-white shadow-lg shadow-black hover:shadow-2xl">Voltar</button>
+        </a>
+    </div>
+</div>

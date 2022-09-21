@@ -1,0 +1,22 @@
+<hr class="border border-sky-900">
+    <div class="rounded roundex-2xl p-3 flex flex-row text-center  place-content-around bg-white color-white hover:shadow hover:shadow-black hover:shadow-lg hover:p-4">
+    <div></div>
+    <div></div>
+    <div class=" hover:shadow hover:shadow-black hover:shadow-2xl hover:p-4" >
+        <a href="/" title="Pagina inicial"><img width="24" src="/_assets/images/home-icon.svg"></a>
+    </div>
+    <div class=" hover:shadow hover:shadow-black hover:shadow-2xl hover:p-4" >
+        <a href="#top" title="Topo"><img src="/_assets/images/arrow-up-icon.svg"></a>
+    </div>
+    <div></div>
+    <div></div>
+</div>
+
+<hr class="border border-sky-900">
+<div class="w-full flex justify-center">
+    {% for footer_block in collections.footer_block | sortByDisplayOrder %}
+        <article class="m-3 w-1/3 text-sky-900">
+            {{ footer_block.data.content | safe }}
+        </article>
+    {% endfor %}
+</div>
