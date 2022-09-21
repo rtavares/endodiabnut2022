@@ -1,3 +1,5 @@
+const { configureMarkdownIt } = require('./endodiabnut2022/website/code/_11ty_globals/projectComponents')
+
 module.exports = function(eleventyConfig) {
     // 11ty configuration
     // Copy images to build site.
@@ -20,9 +22,13 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter("sortByDisplayOrder", sortByDisplayOrder)
     eleventyConfig.addFilter("debugObject", debugObject)
 
+    // Markdown extended syntax
+    eleventyConfig.setLibrary('md', configureMarkdownIt())
+
     return {
         dir: {
             input: "endodiabnut2022/website/site-content/"
-        }
+        },
+         passthroughFileCopy: true,
     }
 }
