@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.png")
     eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.jpg")
     eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.svg")
+    eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.pdf")
 
     // Custom template filters
     function sortByDisplayOrder(values) {
