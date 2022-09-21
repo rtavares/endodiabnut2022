@@ -10,7 +10,3 @@ TERÇA-FEIRA 25
 
 12h 15m – 13h 00m – Simpósio Satélite – Novo Nordisk
 “ TRESIBA TALK: SIMPLIFICAR A INSULINIZAÇÃO EM DT2 ”
-
-ALMOÇO DE TRABALHO
-
-14h 30m – 15h 15m – Simpósio Satélite – Abbott
