@@ -15,6 +15,18 @@
         @apply rounded hover:bg-white hover:text-black hover:p-1 hover:opacity-75;
     }
 
+    .center {
+        @apply text-center;
+    }
+
+    .bold {
+        @apply font-bold;
+    }
+
+    .border-black-2 {
+        @apply border-2 border-black;
+    }
+
     .homepage-header-title {
          @apply uppercase sm:text-sm md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl;
     }
@@ -29,6 +41,10 @@
 
     .main {
         opacity: 0.92;
+    }
+
+    .pad-top-12 {
+        @apply pt-12;
     }
 
     .program-index {

@@ -3,7 +3,7 @@ layout: layouts/_components/dummy.njk
 tags: footer_block
 display_order: 1
 ---
-# SECRETARIADO:
+# SECRETARIADO: {.bold}
 Farmaçor, S.A.  
 Av. Alberto I, Principe do Mónaco, 6 RC Dto.  
 Sta. Clara  

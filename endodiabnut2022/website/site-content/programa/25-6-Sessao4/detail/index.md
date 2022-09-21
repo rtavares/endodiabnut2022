@@ -1,11 +1,12 @@
 ---
 layout: layouts/program-detail.njk
 ---
-TERÇA-FEIRA 25    
-SESSÃO 4 - Individualização Terapêutica na Diabetes  
+### TERÇA-FEIRA 25    
+### SESSÃO 4
+## Individualização Terapêutica na Diabetes  
 MODERAÇÃO  
-PRESIDENTE: • DRA ISABEL SOUSA (PONTA DELGADA)   
-MODERADORES: • DRA CLOTILDE LIMBERT (LISBOA) /  
+**PRESIDENTE**: • DRA ISABEL SOUSA (PONTA DELGADA)   
+**MODERADORES**: • DRA CLOTILDE LIMBERT (LISBOA) /  
 • DRA TERESA REGO (ANGRA DO HEROÍSMO) /   
 • DRA CATARINA SARAIVA (LISBOA)  
 16h 30m – 16h 45m – NO IDOSO  
