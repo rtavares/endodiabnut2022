@@ -1,7 +1,7 @@
 ---
 layout: layouts/homepage.njk
 tags: homepage
-display_order: 200
+display_order: 400
 image: LogoEDN_2022_small.png
 title: 'Inscrições nos Cursos Satelites e Posters'
 ---
