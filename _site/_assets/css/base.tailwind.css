@@ -2088,6 +2088,11 @@ nav a:hover {
   background-color: rgb(1 7 34 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#fffde5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 253 229 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\'\/_assets\/images\/bg-homepage\.png\'\)\] {
   background-image: url('/_assets/images/bg-homepage.png');
 }
@@ -2179,6 +2184,14 @@ nav a:hover {
   font-weight: 500;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.not-italic {
+  font-style: normal;
+}
+
 .leading-relaxed {
   line-height: 1.625;
 }
@@ -2211,6 +2224,11 @@ nav a:hover {
 .text-sky-900 {
   --tw-text-opacity: 1;
   color: rgb(12 74 110 / var(--tw-text-opacity));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .opacity-100 {
