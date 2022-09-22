@@ -6,11 +6,12 @@ image: LogoEDN_2022_small.png
 title: 'Inscrições no Congresso'
 ---
 ### Preço de inscrição por participante:
-€ 180 com direito a 4 almoços de trabalho para Médicos
-€ 160 com direito a 4 almoços de trabalho para Outros Profissionais de Saúde
-€ 100 sem almoços de trabalho para Médicos
-€ 80 sem almoços de trabalho para Outros Profissionais de Saúde
-
+::: prose-format
+-- € 180 com direito a 4 almoços de trabalho para Médicos
+-- € 160 com direito a 4 almoços de trabalho para Outros Profissionais de Saúde
+-- € 100 sem almoços de trabalho para Médicos
+-- € 80 sem almoços de trabalho para Outros Profissionais de Saúde
+:::
 
 ----
 ::: bold
