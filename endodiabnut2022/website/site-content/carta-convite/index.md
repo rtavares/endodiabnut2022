@@ -8,7 +8,7 @@ page_title: "Home | "
   
 ### Carta-Convite
 
-Caro Colega,    
+Colega,    
 
 
 O Serviço de Endocrinologia e Nutrição do Hospital do Divino Espírito Santo, tem em preparação o XVII Congresso de Endocrinologia e Nutrição dos Açores, as XVIII Jornadas de

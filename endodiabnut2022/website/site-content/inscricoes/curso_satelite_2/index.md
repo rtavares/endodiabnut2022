@@ -15,7 +15,7 @@ As inscrições no curso de Antropometria:
 - Estão limitadas a 20 vagas
 - É obrigatória a inscrição no XVI Congresso de Endocrinologia e Nutrição dos Açores
 
-A candidatura poderá ser formalizada para o mail andre.sousa@farmacor.pt, com o seguinte texto,
+A candidatura poderá ser formalizada para o mail congressos@farmacor.pt - Sandra Pereira, com o seguinte texto,
 
 Eu ........., pretendo inscrever-me no curso de antropometria no âmbito do XVI Congresso de Endocrinologia e Nutrição dos Açores.
 

@@ -1,7 +1,7 @@
 ---
 layout: layouts/homepage.njk
 tags: homepage
-display_order: 100
+display_order: 300
 image: LogoEDN_2022_small.png
 title: 'Inscrições no Congresso'
 ---
