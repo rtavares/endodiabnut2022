@@ -1,6 +1,6 @@
 ---
 layout: layouts/carta-convite.njk
-page_title: "Home | "
+page_title: "Carta-convite |"
 ---
 
 
