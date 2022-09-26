@@ -26,6 +26,7 @@ ORGANIZAÇÃO: DR BERNARDO PEREIRA (PONTA DELGADA)
 DRA CATARINA MONIZ (PONTA DELGADA)
 DRA CAROLINA CHAVES (PONTA DELGADA)
 DRA REGINA MEDEIROS (PONTA DELGADA)
+DRA ANDREIA PATACO (PONTA DELGADA)
 
 Sala 1
 - Revisão Teórica: Tipos de Insulina, Quando Iniciar e Como Iniciar
@@ -33,7 +34,7 @@ Sala 1
 - Auto Monitorização da Glicemia e Acertos Terapêuticos
 - DRA CAROLINA CHAVES (PONTA DELGADA)
 
-- Sala 2
+Sala 2
 - Aspetos Práticos da Insulinoterapia
 - ENFª MANUELA MARQUES (PONTA DELGADA)
 - ENF FLÁVIO TOLEDO (PONTA DELGADA)
