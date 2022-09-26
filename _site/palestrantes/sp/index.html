@@ -9,32 +9,48 @@
 </head>
 <body class="font-sans bg-[#010722] bg-[url('/_assets/images/Saco_bg.jpg')]">
     <a id="top"></a>
-    <header class="mx-auto sm:w-4/5 lg:w-2/3 bg-gradient-to-b from-[#010722] to-[#438ac1]">
+    <header class="mx-auto mb-3 p-1 sm:w-4/5 lg:w-2/3 bg-gradient-to-b from-[#010722] to-[#438ac1]">
         <div class="homepage-header-title text-sky-200 col-span-4 text-center flex items-center justify-center">
             <a href="/">
-                <img class="scale-75" src="/_assets/images/LogoEDN_2022_75.png">
+                <img class="scale-75 sm:scale-[0.85]" src="/_assets/images/LogoEDN_2022_75.png">
             </a>
-            XVII Congresso de Endocrinologia <br>
-            e Nutrição dos Açores
+            <p>
+                XVII Congresso de Endocrinologia<br>
+                e Nutrição dos Açores
+            </p>
         </div>
-        <div class="homepage-header-title text-sky-200 text-center">
-        </div>
+        <div class="homepage-header-title text-sky-200 text-center"></div>
         <div class="homepage-header-subtitle text-center text-white m-3">XVIII Jornadas de Diabetologia</div>
-        <div class="homepage-header-subtitle pb-3 text-sky-900 text-center">IX Simpósio Satélite de Nutrição</div>
+        <div class="homepage-header-subtitle pb-3 text-[#010722] text-center">IX Simpósio Satélite de Nutrição</div>
         <div class="text-center text-sky-200 md:text-sm xl:text-xl">
             TEATRO MICAELENSE - CENTRO DE CONGRESSOS DE PONTA DELGADA | SÃO MIGUEL | AÇORES <br> 25 A 28 DE OUTUBRO DE 2022
         </div>
 
-        <div class="m-3 order-solid border-0 border-t border-white bg-[#010722] text-white mx-auto p-3 flex items-center justify-center">
-            <nav>
-                <a href="/">Home</a> |
-                <a target="_blank" href="/_assets/images/programa-cientifico-provisorio.pdf">Programa provisório</a> |
-                <a href="/carta-convite">Carta Convite</a> |
-                <a href="/cartaz">Cartaz</a> |
-                <a target="_blank" href="http://2019.endodiabnut.org">Visite o site XVI congresso - 2019</a>
-            </nav>
-        </div>
+        <!--        Menu -->
+        <div class="p-2 m-3 border-solid border-0 border-t border-white bg-[#010722] text-white mx-auto px-2 sm:p-3 ">
+            <div class="lg:hidden toggle flex flex-row items-center justify-between cursor-pointer">
+                <div class="">Site Menu</div>
+                <a href="#" class="toggle  flex flex-col justify-between w-[30px] h-21[px]">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+            </div>
 
+            <div>
+                <nav class="navbar-links flex flex-col hidden lg:flex lg:flex-row lg:items-center lg:justify-center">
+                    <a class="nav-items" href="/">Home</a>
+                    <span class="mx-1 hidden lg:inline">|</span>
+                    <a class="nav-items" target="_blank" href="/_assets/images/programa-cientifico-provisorio.pdf">Programa provisório</a>
+                    <span class="mx-1 hidden lg:inline">|</span>
+                    <a class="nav-items" href="/carta-convite">Carta Convite</a>
+                    <span class="mx-1 hidden lg:inline">|</span>
+                    <a class="nav-items" href="/cartaz">Cartaz</a>
+                    <span class="mx-1 hidden lg:inline">|</span>
+                    <a class="nav-items" target="_blank" href="http://2019.endodiabnut.org">Visite o site XVI congresso - 2019</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <main class="main shadow mx-auto sm:w-4/5 lg:w-2/3 rounded-2xl">
@@ -137,7 +153,7 @@
 </div>
 
 <hr class="border border-sky-900">
-<div class="w-full grid sm:grid-cols-1 lg:grid-cols-3 md:grid-cols-2 justify-center">
+<div class="w-full grid grid-cols-1 md:grid-cols-3 justify-center">
     
         <article class="m-3 sm:text-xs text-sky-900">
             <h1 class="bold">SECRETARIADO:</h1>
@@ -193,6 +209,17 @@ Lô Athayde César</p>
             <span class="not-italic text-blue-500"> <a target="_blank"  href="https://en.wikipedia.org/wiki/A%C3%A7oriano_Oriental">More information - Wikipedia</a> </span>
         </div>
     </article>
+
+<script>
+	// Burger menu
+    const toggleButton = document.getElementsByClassName('toggle')[0]
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+    toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('hidden')
+    })
+
+</script>
 
 </body>
 </html>
