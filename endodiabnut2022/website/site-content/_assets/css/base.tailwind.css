@@ -12,7 +12,7 @@
     }
 
     nav a {
-        @apply rounded hover:bg-white hover:text-black hover:p-1 hover:opacity-75;
+        @apply rounded hover:bg-white hover:text-black hover:py-1 hover:shadow hover:shadow-white hover:opacity-75;
     }
 
     .center {
