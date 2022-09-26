@@ -6,6 +6,8 @@ detail: 0
 ---
 ### TERÇA-FEIRA 25  
 
+::: center
 13h 00m   
 
 ### ALMOÇO DE TRABALHO
+:::

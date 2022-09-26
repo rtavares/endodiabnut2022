@@ -16,4 +16,3 @@ layout: layouts/program-detail.njk
 • DR JOÃO SÉRGIO NEVES (PORTO)   
 
 16h 00m – 16h 15m – DISCUSSÃO  
-16h 15m – 16h 30m – COFFEE / TEA BREAK  
