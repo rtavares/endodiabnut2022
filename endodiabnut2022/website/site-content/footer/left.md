@@ -9,4 +9,4 @@ Av. Alberto I, Principe do Mónaco, 6 RC Dto.
 Sta. Clara  
 9500-237 PONTA DELGADA 
 Telef. geral: 296 305 180
-Telef. directo: 965 379 232 - Sandra Pereira
+Telef. directo: 965 379 262 - Sandra Pereira
