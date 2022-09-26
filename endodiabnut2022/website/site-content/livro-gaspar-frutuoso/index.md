@@ -1,6 +1,6 @@
 ---
 layout: layouts/carta-convite.njk
-page_title: "Livri Gaspar Frutuoso | "
+page_title: "Livro Gaspar Frutuoso | "
 ---
 
 
@@ -9,8 +9,12 @@ page_title: "Livri Gaspar Frutuoso | "
 
 [Livro - Gaspar Frutuoso e a Saudade - PDF](/_assets/images/Livro-GasparFrutuosoeaSaudade.pdf)
 
+[![Video - YT](/_assets/images/Video-ProfJoseHermanoSaraiva.png "Video - Prof. Jose Hermano Saraiva - Programa RTP - A Alma e a Gente - Gaspar Fructuoso, Saudades da Terra (Açores) - 13 Nov 2004")](https://youtu.be/eSU_-b3LBVA)
+
+[Video - Prof. Jose Hermano Saraiva - Programa RTP - A Alma e a Gente - Gaspar Fructuoso, Saudades da Terra (Açores) - 13 Nov 2004](https://youtu.be/eSU_-b3LBVA)
+
 ::: bold center
-As Minhas Notas
+## As Minhas Notas
 :::
 
 ::: prose-format
