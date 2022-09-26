@@ -9,25 +9,38 @@
 </head>
 <body class="font-sans bg-[#010722] bg-[url('/_assets/images/Saco_bg.jpg')]">
     <a id="top"></a>
-    <header class="mx-auto mb-3 p-1 sm:w-4/5 lg:w-2/3 bg-gradient-to-b from-[#010722] to-[#438ac1]">
-        <div class="homepage-header-title text-sky-200 col-span-4 text-center flex items-center justify-center">
-            <a href="/">
-                <img class="scale-75 sm:scale-[0.85]" src="/_assets/images/LogoEDN_2022_75.png">
-            </a>
-            <p>
-                XVII Congresso de Endocrinologia<br>
-                e Nutrição dos Açores
-            </p>
+    <header id="header" class="sticky top-0 z-50 mx-auto mb-3 p-1 sm:w-4/5 lg:w-2/3 bg-gradient-to-b from-[#010722] to-[#438ac1]">
+        <div id="header-info-large">
+            <div class="homepage-header-title text-sky-200 col-span-4 text-center flex items-center justify-center">
+                <a href="/">
+                    <img class="scale-75 sm:scale-[0.85]" src="/_assets/images/LogoEDN_2022_75.png">
+                </a>
+                <p>
+                    XVII Congresso de Endocrinologia<br>
+                    e Nutrição dos Açores
+                </p>
+            </div>
+            <div class="homepage-header-subtitle text-center text-white m-3">XVIII Jornadas de Diabetologia</div>
+            <div class="homepage-header-subtitle pb-3 text-[#010722] text-center">IX Simpósio Satélite de Nutrição</div>
+            <div class="text-center text-sky-200 md:text-sm xl:text-xl">
+                TEATRO MICAELENSE - CENTRO DE CONGRESSOS DE PONTA DELGADA | SÃO MIGUEL | AÇORES <br> 25 A 28 DE OUTUBRO DE 2022
+            </div>
         </div>
-        <div class="homepage-header-title text-sky-200 text-center"></div>
-        <div class="homepage-header-subtitle text-center text-white m-3">XVIII Jornadas de Diabetologia</div>
-        <div class="homepage-header-subtitle pb-3 text-[#010722] text-center">IX Simpósio Satélite de Nutrição</div>
-        <div class="text-center text-sky-200 md:text-sm xl:text-xl">
-            TEATRO MICAELENSE - CENTRO DE CONGRESSOS DE PONTA DELGADA | SÃO MIGUEL | AÇORES <br> 25 A 28 DE OUTUBRO DE 2022
+
+        <!-- show on scroll        -->
+        <div id="header-info-small" class="hidden">
+            <div class="text-sky-200 flex items-center justify-between text-center">
+                <a href="/" class="mx-auto p-1">
+                    <img class="w-10 sm:w-12 lg:w-14" src="/_assets/images/LogoEDN_2022_75.png">
+                </a>
+                <p class="mx-auto lext-lg lg:text-xl">
+                    XVII Congresso de Endocrinologia e Nutrição dos Açores
+                </p>
+            </div>
         </div>
 
         <!--        Menu -->
-        <div class="p-2 m-3 border-solid border-0 border-t border-white bg-[#010722] text-white mx-auto px-2 sm:p-3 ">
+        <div id="header-menu" class="p-2 border-solid border-0 border-t border-white bg-[#010722] text-white mx-auto px-2 sm:p-3 ">
             <div class="lg:hidden toggle flex flex-row items-center justify-between cursor-pointer">
                 <div class="">Site Menu</div>
                 <a href="#" class="toggle  flex flex-col justify-between w-[30px] h-21[px]">
@@ -53,7 +66,7 @@
         </div>
     </header>
 
-    <main class="main shadow mx-auto sm:w-4/5 lg:w-2/3 rounded-2xl">
+    <main id="main" class="main shadow mx-auto sm:w-4/5 lg:w-2/3 rounded-2xl">
             <div class="mx-auto p-4 text-lg bg-white prose p-4 rounded rounded-2xl">
 <h3>TERÇA-FEIRA 25</h3>
 <h3>SESSÃO 1</h3>
@@ -155,13 +168,41 @@ Lô Athayde César</p>
     </article>
 
 <script>
-	// Burger menu
+	// Trigger Burger menu
     const toggleButton = document.getElementsByClassName('toggle')[0]
     const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
     toggleButton.addEventListener('click', () => {
         navbarLinks.classList.toggle('hidden')
     })
+
+    // Shrink header when elements overlap
+    function elementsOverlap(element1, element2) {
+        const domRect1 = element1.getBoundingClientRect()
+        const domRect2 = element2.getBoundingClientRect()
+
+        return (
+            domRect2.top <= domRect1.bottom
+        )
+    }
+
+    function checkScroll(){
+        const headerInfoLarge = document.getElementById('header-info-large')
+        const headerInfoSmall = document.getElementById('header-info-small')
+        const headerMenu = document.getElementById('header-menu')
+        const mainElement = document.getElementById('main')
+
+        if (elementsOverlap(headerMenu, mainElement)){
+            headerInfoLarge.classList.add('hidden')
+            headerInfoSmall.classList.remove('hidden')
+        }
+        else {
+            headerInfoLarge.classList.remove('hidden')
+            headerInfoSmall.classList.add('hidden')
+        }
+    }
+
+    document.addEventListener('scroll', (e) => checkScroll())
 
 </script>
 
