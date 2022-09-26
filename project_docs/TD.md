@@ -21,6 +21,8 @@ EDN-03 - Create a propper text footer
 EDN-04 - Add provisory schedule
 EDN-05 - Add markdown-it attrs and extended syntax 
 EDN-06 - Add Speakers section
-
+EDN-07 - Add customized 404 page
+EDN-08 - Make header and menu stick and shrink on scroll
+EDN-09 - Dockerize project
 -----
 
