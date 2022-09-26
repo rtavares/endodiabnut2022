@@ -6,4 +6,7 @@ detail: 0
 ---
 ### TERÇA-FEIRA 25   
 
-11h 00m – 11h 15m – **COFFEE / TEA BREAK**
+::: center
+11h 00m – 11h 15m 
+**COFFEE / TEA BREAK**
+:::

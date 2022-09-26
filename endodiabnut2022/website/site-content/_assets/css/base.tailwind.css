@@ -16,7 +16,7 @@
     }
 
     .center {
-        @apply text-center;
+        @apply md:text-center;
     }
 
     .bold {
@@ -36,11 +36,24 @@
     }
 
     .homepage-header-title {
-         @apply uppercase sm:text-sm md:text-3xl lg:text-4xl xl:text-6xl 2xl:text-7xl;
+         @apply uppercase text-lg sm:text-2xl md:text-2xl lg:text-4xl xl:text-6xl 2xl:text-7xl;
     }
 
     .homepage-header-subtitle {
          @apply uppercase sm:text-sm md:text-3xl lg:text-3xl xl:text-5xl 2xl:text-6xl;
+    }
+
+    /* Mobile menu - toggle button */
+    .bar {
+        @apply bg-white w-full rounded mb-1 h-[4px;];
+    }
+
+    .nav-items {
+        @apply mx-auto text-center mx-1;
+    }
+
+    .mobile_menu {
+        border: 1px solid white;
     }
 
     .shadow {
