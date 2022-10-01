@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Carta-convite |Congresso de Endocrinologia Diabetes e Nutriçaao - 2022</title>
+    <title>Carta-convite |Congresso de Endocrinologia Diabetes e Nutrição - 2022</title>
     <link rel="stylesheet" href="/_assets/css/base.tailwind.css">
     <meta name="viewport" content="width=device-width initial-scale=1">
 
@@ -10,10 +10,10 @@
 <body class="font-sans bg-[#010722] bg-[url('/_assets/images/Saco_bg.jpg')]">
     <a id="top"></a>
     <header id="header" class="sticky top-0 z-50 mx-auto mb-3 p-1 sm:w-4/5 lg:w-2/3 bg-gradient-to-b from-[#010722] to-[#438ac1]">
-        <div id="header-info-large">
+        <div id="header-info-large"">
             <div class="homepage-header-title text-sky-200 col-span-4 text-center flex items-center justify-center">
                 <a href="/">
-                    <img class="scale-75 sm:scale-[0.85]" src="/_assets/images/LogoEDN_2022_75.png">
+                    <img class="scale-[0.65] sm:scale-[0.75] lg:scale-[0.85]" src="/_assets/images/LogoEDN_2022_75.png">
                 </a>
                 <p>
                     XVII Congresso de Endocrinologia<br>
@@ -41,7 +41,7 @@
 
         <!--        Menu -->
         <div id="header-menu" class="p-2 border-solid border-0 border-t border-white bg-[#010722] text-white mx-auto px-2 sm:p-3 ">
-            <div class="lg:hidden toggle flex flex-row items-center justify-between cursor-pointer">
+            <div class="hover:drop-shadow-2xl hover:shadow-white hover:bg-indigo-900 lg:hidden toggle flex flex-row items-center hover:py-2 px-1 rounded justify-between cursor-pointer">
                 <div class="">Site Menu</div>
                 <a href="#" class="toggle  flex flex-col justify-between w-[30px] h-21[px]">
                     <span class="bar"></span>
@@ -120,12 +120,16 @@ Diabetologia e o IX Simpósio Satélite de Nutrição, a realizar de 25 a 28 de 
     <div class="bg-[url('/_assets/images/bg-homepage.png')] rounded roundex-2xl p-3 flex flex-row text-center  place-content-around bg-white color-white hover:shadow hover:shadow-black hover:shadow-lg hover:p-4">
     <div></div>
     <div></div>
-    <div class=" hover:shadow hover:shadow-black hover:shadow-2xl hover:p-4" >
-        <a href="/" title="Pagina inicial"><img width="24" src="/_assets/images/home-icon.svg"></a>
-    </div>
-    <div class=" hover:shadow hover:shadow-black hover:shadow-2xl hover:p-4" >
-        <a href="#top" title="Topo"><img src="/_assets/images/arrow-up-icon.svg"></a>
-    </div>
+    <a href="/" title="Pagina inicial">
+        <div class=" hover:shadow hover:shadow-black hover:shadow-2xl hover:p-4" >
+            <img width="24" src="/_assets/images/home-icon.svg">
+        </div>
+    </a>
+    <a href="#top" title="Topo">
+        <div class=" hover:shadow hover:shadow-black hover:shadow-2xl hover:p-4" >
+            <img src="/_assets/images/arrow-up-icon.svg">
+        </div>
+    </a>
     <div></div>
     <div></div>
 </div>
@@ -189,37 +193,40 @@ Lô Athayde César</p>
     </article>
 
 <script>
+    // Data for overlapping control
+    const headerInfoLarge = document.getElementById('header-info-large')
+    const headerInfoSmall = document.getElementById('header-info-small')
+
 	// Trigger Burger menu
     const toggleButton = document.getElementsByClassName('toggle')[0]
     const navbarLinks = document.getElementsByClassName('navbar-links')[0]
-
+    
     toggleButton.addEventListener('click', () => {
         navbarLinks.classList.toggle('hidden')
     })
 
     // Shrink header when elements overlap
-    function elementsOverlap(element1, element2) {
-        const domRect1 = element1.getBoundingClientRect()
-        const domRect2 = element2.getBoundingClientRect()
-
-        return (
-            domRect2.top <= domRect1.bottom
-        )
-    }
-
     function checkScroll(){
-        const headerInfoLarge = document.getElementById('header-info-large')
-        const headerInfoSmall = document.getElementById('header-info-small')
-        const headerMenu = document.getElementById('header-menu')
-        const mainElement = document.getElementById('main')
+        const scrollValue = document.documentElement.scrollTop
 
-        if (elementsOverlap(headerMenu, mainElement)){
-            headerInfoLarge.classList.add('hidden')
-            headerInfoSmall.classList.remove('hidden')
-        }
-        else {
-            headerInfoLarge.classList.remove('hidden')
+        if ( scrollValue > 0) {
+            if (!headerInfoLarge.classList.contains('scrolled')) {
+                document.documentElement.scrollTop = scrollValue + 15
+
+                headerInfoLarge.classList.add('scrolled')
+                headerInfoLarge.classList.remove('animation-effect-in')
+                headerInfoLarge.classList.add('animation-effect-out')
+                headerInfoLarge.style.height = '0';
+                headerInfoSmall.classList.remove('hidden')
+                headerInfoSmall.classList.add('animation-effect-in')
+            }
+        }  else {
+            headerInfoLarge.classList.remove('scrolled')
             headerInfoSmall.classList.add('hidden')
+            headerInfoLarge.classList.remove('hidden')
+            headerInfoLarge.classList.add('animation-effect-in')
+            headerInfoLarge.classList.remove('animation-effect-out')
+            headerInfoLarge.style.height = '100%'
         }
     }
 
