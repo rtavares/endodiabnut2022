@@ -11,8 +11,7 @@ page_title: "Carta-convite |"
 Colega,    
 
 
-O Serviço de Endocrinologia e Nutrição do Hospital do Divino Espírito Santo, tem em preparação o XVII Congresso de Endocrinologia e Nutrição dos Açores, as XVIII Jornadas de
-Diabetologia e o IX Simpósio Satélite de Nutrição, a realizar de 25 a 28 de Outubro do ano de 2022, em Ponta Delgada.
+O Serviço de Endocrinologia e Nutrição do Hospital do Divino Espírito Santo, tem em preparação o XVII Congresso de Endocrinologia e Nutrição dos Açores, as XVIII Jornadas de Diabetologia e o IX Simpósio Satélite de Nutrição, a realizar de 25 a 28 de Outubro do ano de 2022, em Ponta Delgada.
 
 Apesar de ainda vivermos tempos conturbados e bem difíceis, à conta de uma pandemia que não nos quer dar tréguas, sempre fomos otimistas e como o povo diz “Não há bem que sempre dure, nem mal que nunca acabe”! Acreditamos que a exemplo do que aconteceu este ano, durante o Verão e início de Outono, que para o ano, os tempos hão de estar melhores!
 
