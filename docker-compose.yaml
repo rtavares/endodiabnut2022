@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  prod:
+    build: .
+    volumes:
+      - ./_site:/_site
+
+  site:
+    build: .
+    volumes:
+      - ./project:/project
+      - ./_site:/_site
+    ports:
+      - "8080:8080"
+    command: "yarn dev-serve"
+    depends_on:
+      - build-css
+
+  build-css:
+    build: .
+    volumes:
+      - ./project:/project
+      - ./_site:/_site
+    command: "yarn build-css-dev"
+
