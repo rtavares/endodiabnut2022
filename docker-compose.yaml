@@ -1,10 +1,13 @@
-version: "3.9"
+version: "3.3"
 
 services:
   prod:
     build: .
     volumes:
       - ./_site:/_site
+    command: "yarn build-prod"
+    depends_on:
+      - build-css-prod
 
   site:
     build: .
@@ -24,3 +27,8 @@ services:
       - ./_site:/_site
     command: "yarn build-css-dev"
 
+  build-css-prod:
+    build: .
+    volumes:
+      - ./_site:/_site
+    command: "yarn build-css-prod"
