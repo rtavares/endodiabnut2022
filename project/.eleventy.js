@@ -4,9 +4,10 @@ module.exports = function(eleventyConfig) {
     // 11ty configuration
     // Copy images to build site.
     eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.png")
-    eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.jpg")
+    eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.{jpg, JPG}")
     eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.svg")
     eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.pdf")
+    eleventyConfig.addPassthroughCopy("endodiabnut2022/website/site-content//**/*.js")
 
     // Custom template filters
     function sortByDisplayOrder(values) {
