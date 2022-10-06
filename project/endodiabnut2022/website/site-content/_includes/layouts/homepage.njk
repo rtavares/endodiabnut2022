@@ -2,7 +2,16 @@
 layout: layouts/_components/base.njk
 ---
 <section class="text-gray-700 text-lg">
-    <div class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+
+    <div class="m-8 pt-4">
+            <div class="carousel bg-gray-100 mx-8">
+                {% for image in slideshowImages %}
+                    <div class="p-2"><img alt="Congresso 2019" src="/slideshow/images/{{ image }}"></div>
+                {% endfor %}
+            </div>
+    </div>
+
+    <div class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 mt-1">
       {% for homepage_block in collections.homepage | sortByDisplayOrder %}
         <div  class="bg-[url('/_assets/images/bg-homepage.png')] m-2 mt-0 hover:shadow-xl shadow-black shadow-md hover:shadow-black hover:m-3 border border-white rounded-2xl" >
             {% if homepage_block.data.link_target %}
@@ -24,3 +33,20 @@ layout: layouts/_components/base.njk
       {% endfor %}
     </div>
 </section>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="/_assets/js/slick.js"></script>
+
+<script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        useCSS: true,
+      });
+    });
+
+</script>
