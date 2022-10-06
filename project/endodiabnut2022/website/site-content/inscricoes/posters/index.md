@@ -3,7 +3,9 @@ layout: layouts/program-detail.njk
 page_title: "Submissão de Trabalhos | Posters "
 ---
 ### Submissão de Trabalhos
-### INSTRUÇÕES POSTERS
+Envio para o mail congressos@farmacor.pt - Sandra Pereira
+
+### INSTRUÇÕES 
 
 Colocação e retirada dos posters:
 
