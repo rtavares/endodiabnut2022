@@ -9,11 +9,14 @@ help: ## Show this help.
 	# From https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
-run-site-dev: ## Start project on Docker with files changes watch and hot reload for development, in foreground..
+run-site-dev: ## Start project on Docker with files changes watch and hot reload for development, in foreground.
 	docker-compose up site-dev
 
-build-site-dev: ## Build and start project on Docker with files changes watch and hot reload for development, in foreground..
+build-site-dev: ## Build and start project on Docker with files changes watch and hot reload for development, in foreground.
 	docker-compose up --build site-dev
+
+run-css-dev: ## It should be done automatically by 'build-site-dev'. However, if CSSs are note updating properly, we can run Tailwind in a separated container, in foreground.
+	docker-compose up css-dev
 
 build-prod: ## Build and start project on Docker to generate site output and quit the containers.
 	docker-compose up --build build-prod
