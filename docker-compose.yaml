@@ -24,9 +24,9 @@ services:
       - "8080:8080"
     command: "yarn dev-serve"
     depends_on:
-      - build-css-dev
+      - css-dev
 
-  build-css-dev:
+  css-dev:
     build: .
     volumes:
       - ./project:/project

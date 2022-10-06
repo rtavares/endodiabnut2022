@@ -3,12 +3,13 @@ layout: layouts/_components/base.njk
 ---
 <section class="text-gray-700 text-lg">
 
-    <div class="m-8 pt-4">
-            <div class="carousel bg-gray-100 mx-8">
-                {% for image in slideshowImages %}
-                    <div class="p-2"><img alt="Congresso 2019" src="/slideshow/images/{{ image }}"></div>
-                {% endfor %}
-            </div>
+    <div class="mt-4 pt-4 w-full">
+        <div class="p-2 text-center bg-gray-100 text-xl">Foi assim em 2019!...</div>
+        <div class="carousel bg-gray-100">
+            {% for image in slideshowImages %}
+                <div class="p-2"><img alt="Congresso 2019" src="/slideshow/images/{{ image }}"></div>
+            {% endfor %}
+        </div>
     </div>
 
     <div class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 mt-1">
@@ -41,11 +42,17 @@ layout: layouts/_components/base.njk
 <script>
     $(document).ready(function(){
       $('.carousel').slick({
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-        useCSS: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
+          useCSS: true,
+          responsive: [{
+              breakpoint: 800,
+              settings: {
+                  slidesToShow: 1,
+              }
+          }]
       });
     });
 
