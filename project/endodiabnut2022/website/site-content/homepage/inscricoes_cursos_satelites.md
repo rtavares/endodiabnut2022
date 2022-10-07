@@ -9,18 +9,18 @@ title: 'Inscrições nos Cursos Satélites e Posters'
 [Curso Satélite 1 - Insulinoterapia na Diabetes mellitus tipo 2](/inscricoes/curso_satelite_1/)
 :::
 ### Patrocínio – Novo Nordisk
-Data limite: 15 Outubro
+Data limite: **15 Outubro**
 Limite máximo – 20 inscrições
 
 ::: link
 [Curso Satélite 2 – Antropometria - Sarcopenia em Ambiente Hospitalar](/inscricoes/curso_satelite_2/)
 :::
 ### Patrocínio – Fresenius-Kabi
-Data limite: 15 Outubro
+Data limite: **15 Outubro**
 Limite máximo – 20 inscrições
 
 
 ::: link
 [Posters](/inscricoes/posters/) 
 :::
-Data limite: 7 Outubro
+Data limite: **12 Outubro**
