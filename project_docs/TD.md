@@ -26,6 +26,7 @@ EDN-08 - Make header and menu stick and shrink on scroll
 EDN-09 - Dockerize project
 EDN-10 - Add analytics to site
 EDN-11 - Add pictures slideshow  
+EDN-11.1 - Randomize picture's order on slideshow presentation  
 EDN-12 - Add 404 page  
 -----
 

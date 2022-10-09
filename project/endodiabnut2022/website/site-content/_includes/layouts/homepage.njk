@@ -6,6 +6,7 @@ layout: layouts/_components/base.njk
     <div class="mt-4 pt-4 w-full">
         <div class="p-2 text-center bg-gray-100 text-xl">Foi assim em 2019!...</div>
         <div class="carousel bg-gray-100">
+            <!--     from _data       -->
             {% for image in slideshowImages %}
                 <div class="p-2"><img alt="Congresso 2019" src="/slideshow/images/{{ image }}"></div>
             {% endfor %}
@@ -42,7 +43,7 @@ layout: layouts/_components/base.njk
 <script>
     $(document).ready(function(){
       $('.carousel').slick({
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           autoplay: true,
           autoplaySpeed: 3000,
@@ -51,6 +52,11 @@ layout: layouts/_components/base.njk
               breakpoint: 800,
               settings: {
                   slidesToShow: 1,
+                }
+            }, {
+              breakpoint: 1540,
+              settings: {
+                  slidesToShow: 2,
               }
           }]
       });
