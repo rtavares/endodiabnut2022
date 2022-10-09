@@ -1,15 +1,23 @@
-// const fg = require('fast-glob')
-//
-// const location = `./endodiabnut2022/website/site-content/slideshow/images/*.JPG`
-const location = "endodiabnut2022/website/site-content/slideshow/images"
-// const slideshowImages = fg.sync([location], { dot: true });
-
-// const testFolder = './tests/';
 const fs = require('fs');
 
-const slideshowImages = []
+const location = "endodiabnut2022/website/site-content/slideshow/images"
+let slideshowImages = []
+
+function randomizeArray(array) {
+    let currentId = array.length
+    let randomizedArray = []
+
+    while (currentId !== 0) {
+        let randomId = Math.floor(Math.random() * currentId)
+        currentId -= 1
+        randomizedArray.push(array[randomId])
+    }
+
+    return randomizedArray
+}
+
 fs.readdirSync(location).forEach(file => {
     slideshowImages.push(file)
 });
 
-module.exports = slideshowImages
+module.exports = randomizeArray(slideshowImages)

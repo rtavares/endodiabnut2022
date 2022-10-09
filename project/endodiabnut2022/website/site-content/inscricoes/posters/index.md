@@ -3,7 +3,8 @@ layout: layouts/program-detail.njk
 page_title: "Submissão de Trabalhos | Posters "
 ---
 ### Submissão de Trabalhos
-Envio para o mail congressos@farmacor.pt - Sandra Pereira
+Envio para o mail congressos@farmacor.pt - Sandra Pereira  
+Data limite: **12 Outubro**
 
 ### INSTRUÇÕES 
 

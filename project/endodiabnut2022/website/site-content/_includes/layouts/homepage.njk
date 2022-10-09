@@ -6,6 +6,7 @@ layout: layouts/_components/base.njk
     <div class="mt-4 pt-4 w-full">
         <div class="p-2 text-center bg-gray-100 text-xl">Foi assim em 2019!...</div>
         <div class="carousel bg-gray-100">
+            <!--     from _data       -->
             {% for image in slideshowImages %}
                 <div class="p-2"><img alt="Congresso 2019" src="/slideshow/images/{{ image }}"></div>
             {% endfor %}
