@@ -4,7 +4,8 @@ tags: homepage
 display_order: 200
 image: LogoEDN_2022_small.png
 title: 'Programa Provisório'
-link_target: "/_assets/images/programa-cientifico-provisorio-v1.pdf"
+link_target: "/_assets/images/programa-cientifico-provisorio-v2.pdf"
+link_target_blank_page: "yes"
 ---
 
 Programa Científico
