@@ -1,0 +1,16 @@
+---
+layout: layouts/program.njk
+tags: programa26
+display_order: 2640
+detail: 0
+---
+### QUARTA-FEIRA 26  
+::: center
+11h 30m – 12h 00m
+:::
+### CONFERÊNCIA 
+###  REFLEXO INFLAMATÓRIO NA DIABETES E NO RISCO CARDIOVASCULAR
+
+
+**PRESIDENTE**: • PROF DOUTOR MÁRIO MASCARENHAS (LISBOA)
+**CONFERENCISTA**: • PROF DOUTOR MANUEL BICHO (LISBOA)
