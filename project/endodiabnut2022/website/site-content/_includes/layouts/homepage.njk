@@ -17,7 +17,11 @@ layout: layouts/_components/base.njk
       {% for homepage_block in collections.homepage | sortByDisplayOrder %}
         <div  class="bg-[url('/_assets/images/bg-homepage.png')] m-2 mt-0 hover:shadow-xl shadow-black shadow-md hover:shadow-black hover:m-3 border border-white rounded-2xl" >
             {% if homepage_block.data.link_target %}
-                <a href="{{ homepage_block.data.link_target }}">
+                <a href="{{ homepage_block.data.link_target }}"
+                   {% if homepage_block.data.link_target_blank_page %}
+                     target="_blank"
+                   {% endif %}
+                >
             {% endif %}
               <div class="p-4 pt-0 order">
                   {% if homepage_block.data.image %}
