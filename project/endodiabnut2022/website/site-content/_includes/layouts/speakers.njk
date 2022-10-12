@@ -2,21 +2,29 @@
 layout: layouts/_components/base.njk
 ---
 <section class="grid grid-cols-3 gap-3 text-gray-700 text-lg bg-white p-4 rounded rounded-2xl">
-      {% for speaker in collections.speakers | sortByDisplayOrder %}
+    {#
+      {% for speaker in speakers %}
+        '{{ speaker.speakerDataKey }}':{ <br>
+            'location': '', <br>
+            'sessions': ['',] <br>
+        }, <br>
+      {% endfor %}
+    #}
+      {% for speaker in speakers %}
           <div class="p-4 pt-0 order program-index">
-              {% if speaker.data.image %}
-                <img class="order p-3 mx-auto w-fit object-cover object-center" src="_assets/images//{{ homepage_block.data.image }}" alt="{{ speaker.data.title }}" title="{{ speaker.data.title }}">
-              {% endif %}
-                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{ speaker.data.title }}</h1>
-                <p class="leading-relaxed mb-3">
-                    {{ speaker.data.content | safe }}
-                </p>
-                Intervenções: <br>
-                <div class="flex flex-row justify-center">
-                    {% for sessao in speaker.data.link_to %}
-                        <a class="p-3" href="/programa/{{sessao}}/detail">{{sessao}}</a>
-                    {% endfor %}
-                </div>
+
+              <img class="h-[300px] order p-3 mx-auto w-fit object-cover object-center" src="/palestrantes/images/{{ speaker.image }}" alt="{{ speaker.fullname }}" title="{{ speaker.fullname }}">
+              <div class="m-4 bg-white ">
+                  <h1 class="bold title-font font-medium text-gray-900">{{ speaker.fullname }}<br>{{ speaker.location }}</h1>
+                  <div>
+                      {% for session in speaker.sessions %}
+                          <div class="mt-3">
+                            <a class="bold" href="/programa/{{ session[2] }}/detail">{{ session[0] }}</a>
+                          </div>
+                          <a class="p-3 underline" href="/programa/{{ session[2] }}/detail">{{ session[1] }}</a>
+                      {% endfor %}
+                  </div>
+              </div>
           </div>
       {% endfor %}
 </section>

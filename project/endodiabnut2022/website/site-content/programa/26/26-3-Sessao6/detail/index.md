@@ -1,0 +1,20 @@
+---
+layout: layouts/program-detail.njk
+permalink: "programa/sessao6/detail/"
+---
+### QUARTA-FEIRA 26  
+### SESSÃO 6
+### Dislipidemia e Doenças Raras - Sindroma de Quilomicronémia Familiar
+#### Patrocínio – SOBI
+
+MODERAÇÃO
+**PRESIDENTE**: • PROF DOUTOR SILVA NUNES (LISBOA)
+**MODERADORES**: • DRA ISABEL TORRES (PORTO) /
+• DRA MARGARIDA FERREIRA (FUNCHAL)
+
+10h 30m – 10h 50m – DESAFIOS NO DIAGNÓSTICO
+• DR BERNARDO PEREIRA (PONTA DELGADA)
+10h 50m – 11h 10m – DESAFIOS NO TRATAMENTO
+• DR SEQUEIRA DUARTE (LISBOA)
+
+11h 10m – 11h 30m – DISCUSSÃO
