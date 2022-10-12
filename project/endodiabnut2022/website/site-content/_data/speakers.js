@@ -504,6 +504,10 @@ fs.readdirSync(location).forEach(file => {
         fullname += ` `
     })
 
+    // TBR - Debugo for deploying
+    console.log('speakerDataKey: ')
+    console.log(speakerDataKey)
+
     let speaker = {
         'fullname': fullname,
         'image': file,
