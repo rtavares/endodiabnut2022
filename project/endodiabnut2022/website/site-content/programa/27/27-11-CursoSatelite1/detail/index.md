@@ -1,5 +1,6 @@
 ---
 layout: layouts/program-detail.njk
+permalink: "programa/cursosatelite1/detail/"
 ---
 ### QUINTA-FEIRA 27  
 ::: center

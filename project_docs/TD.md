@@ -28,5 +28,6 @@ EDN-10 - Add analytics to site
 EDN-11 - Add pictures slideshow  
 EDN-11.1 - Randomize picture's order on slideshow presentation  
 EDN-12 - Add 404 page  
+EDN-13 - Create speakers structure  
 -----
 
