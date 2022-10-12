@@ -1,484 +1,491 @@
 const fs = require('fs');
 
+// Static data structure to associate extra info to the speacker's profile
 const speakersData = {
-    'DrAndrMonteiro':{
+    '1':{
     'location': 'PONTA DELGADA',
-    'sessions': [[['Sessão 5'], ['Diabetes e Risco Cardiovascular'], ['sessao5']],]
+    'sessions': [
+            [['Sessão 5'], ['Diabetes e Risco Cardiovascular'], ['sessao5']],
+        ]
     },
-    'DrAntonioGarrao':{
+    '2':{
     'location': 'LISBOA',
     'sessions': [
             [['Sessão 9'], ['Tiroideia – Patologia Nodular'], ['sessao9']],
         ]
     },
-    'DrBernardoMarques':{
+    '3':{
     'location': 'LISBOA',
     'sessions': [
             [['Sessão 7'], ['Suprarrenal e HTA Endócrina'], ['sessao7']],
         ]
     },
-    'DrBernardoPereira':{
+    '4':{
     'location': 'PONTA DELGADA',
     'sessions': [
             [['Sessão 6'], ['Dislipidemia e Doenças Raras - Sindroma de Quilomicronémia Familiar'], ['sessao6']],
             [['CURSO SATÉLITE 1'], ['Insulinoterapia na Diabetes mellitus tipo 2'], ['cursosatelite1']],
         ]
     },
-    'DrCarlosBello':{
+    '5':{
     'location': 'LISBOA',
     'sessions': [
             [['Sessão 12'], ['Endocrinologia da Reprodução'], ['sessao12']],
         ]
     },
-    'DrCarlosVasconcelos':{
+    '6':{
     'location': '',
     'sessions': ['',]
     },
-    'DrCelestinoNeves':{
+    '7':{
     'location': '',
     'sessions': ['',]
     },
-    'DrDanielBraga':{
+    '8':{
     'location': '',
     'sessions': ['',]
     },
-    'DrDinisMartins':{
+    '9':{
     'location': '',
     'sessions': ['',]
     },
-    'DrEmanuelDias':{
+    '10':{
     'location': '',
     'sessions': ['',]
     },
-    'DrFranciscoSousa':{
+    '11':{
     'location': '',
     'sessions': ['',]
     },
-    'DrGilResendes':{
+    '12':{
     'location': '',
     'sessions': ['',]
     },
-    'DrGoncaloGoncalves':{
+    '13':{
     'location': '',
     'sessions': ['',]
     },
-    'DrHelderSimoes':{
+    '14':{
     'location': '',
     'sessions': ['',]
     },
-    'DrHenriqueVara':{
+    '15':{
     'location': '',
     'sessions': ['',]
     },
-    'DrJoaoAnselmo':{
+    '16':{
     'location': '',
     'sessions': ['',]
     },
-    'DrJooSrgio':{
+    '17':{
     'location': '',
     'sessions': ['',]
     },
-    'DrJorgeDores':{
+    '18':{
     'location': '',
     'sessions': ['',]
     },
-    'DrJorgePortugal':{
+    '19':{
     'location': '',
     'sessions': ['',]
     },
-    'DrJorgeVasconcelos':{
+    '20':{
     'location': '',
     'sessions': ['',]
     },
-    'DrJosManuel':{
+    '21':{
     'location': '',
     'sessions': ['',]
     },
-    'DrJoseMaria':{
+    '22':{
     'location': '',
     'sessions': ['',]
     },
-    'DrLuisBernardo':{
+    '23':{
     'location': '',
     'sessions': ['',]
     },
-    'DrMachadoSaraiva':{
+    '24':{
     'location': '',
     'sessions': ['',]
     },
-    'DrRicardoCapitao':{
+    '25':{
     'location': '',
     'sessions': ['',]
     },
-    'DrRuiCarvalho':{
+    '26':{
     'location': '',
     'sessions': ['',]
     },
-    'DrRuiCesar':{
+    '27':{
     'location': '',
     'sessions': ['',]
     },
-    'DrRuiMendonca':{
+    '28':{
     'location': '',
     'sessions': ['',]
     },
-    'DrSequeiraDuarte':{
+    '29':{
     'location': '',
     'sessions': ['',]
     },
-    'DrSerafimRosas':{
+    '30':{
     'location': '',
     'sessions': ['',]
     },
-    'DrSilvestreAbreu':{
+    '31':{
     'location': '',
     'sessions': ['',]
     },
-    'DrSimoesPereira':{
+    '32':{
     'location': '',
     'sessions': ['',]
     },
-    'DrTiagoDias':{
+    '33':{
     'location': '',
     'sessions': ['',]
     },
-    'DraTeresaRego':{
+    '34':{
     'location': '',
     'sessions': ['',]
     },
-    'DraAliceMirante':{
+    '35':{
     'location': '',
     'sessions': ['',]
     },
-    'DraAndreiaPataco':{
+    '36':{
     'location': '',
     'sessions': ['',]
     },
-    'DraBeatrizVale':{
+    '37':{
     'location': '',
     'sessions': ['',]
     },
-    'DraCarlaDiogo':{
+    '38':{
     'location': '',
     'sessions': ['',]
     },
-    'DraCarolinaChaves':{
+    '39':{
     'location': '',
     'sessions': ['',]
     },
-    'DraCarolinaNeves':{
+    '40':{
     'location': '',
     'sessions': ['',]
     },
-    'DraCatarinaMoniz':{
+    '41':{
     'location': '',
     'sessions': ['',]
     },
-    'DraCatarinaSaraiva':{
+    '42':{
     'location': '',
     'sessions': ['',]
     },
-    'DraCidliaPonte':{
+    '43':{
     'location': '',
     'sessions': ['',]
     },
-    'DraClaudiaAmaral':{
+    '44':{
     'location': '',
     'sessions': ['',]
     },
-    'DraClaudiaCosta':{
+    '45':{
     'location': '',
     'sessions': ['',]
     },
-    'DraClaudiaFreitas':{
+    '46':{
     'location': '',
     'sessions': ['',]
     },
-    'DraClaudiaMeneses':{
+    '47':{
     'location': '',
     'sessions': ['',]
     },
-    'DraClotildeLimbert':{
+    '48':{
     'location': '',
     'sessions': ['',]
     },
-    'DraConceicaoMarques':{
+    '49':{
     'location': '',
     'sessions': ['',]
     },
-    'DraCristinaValadas':{
+    '50':{
     'location': '',
     'sessions': ['',]
     },
-    'DraDoraSargento':{
+    '51':{
     'location': '',
     'sessions': ['',]
     },
-    'DraEgidiaMatos':{
+    '52':{
     'location': '',
     'sessions': ['',]
     },
-    'DraElizabeteRodrigues':{
+    '53':{
     'location': '',
     'sessions': ['',]
     },
-    'DraInesMendes':{
+    '54':{
     'location': '',
     'sessions': ['',]
     },
-    'DraIsabelManita':{
+    '55':{
     'location': '',
     'sessions': ['',]
     },
-    'DraIsabelPaiva':{
+    '56':{
     'location': '',
     'sessions': ['',]
     },
-    'DraIsabelSousa':{
+    '57':{
     'location': '',
     'sessions': ['',]
     },
-    'DraIsabelTorres':{
+    '58':{
     'location': '',
     'sessions': ['',]
     },
-    'DraIvoneMachado':{
+    '59':{
     'location': '',
     'sessions': ['',]
     },
-    'DraJoanaLopes':{
+    '60':{
     'location': '',
     'sessions': ['',]
     },
-    'DraJoanaMoreira':{
+    '61':{
     'location': '',
     'sessions': ['',]
     },
-    'DraLauraLemos':{
+    '62':{
     'location': '',
     'sessions': ['',]
     },
-    'DraLuizaRaimundo':{
+    '63':{
     'location': '',
     'sessions': ['',]
     },
-    'DraMafaldaMarcelino':{
+    '64':{
     'location': '',
     'sessions': ['',]
     },
-    'DraMafaldaOliveira':{
+    '65':{
     'location': '',
     'sessions': ['',]
     },
-    'DraManuelaOliveira':{
+    '66':{
     'location': '',
     'sessions': ['',]
     },
-    'DraMargaricaFerreira':{
+    '67':{
     'location': '',
     'sessions': ['',]
     },
-    'DraMargaridaBastos':{
+    '68':{
     'location': '',
     'sessions': ['',]
     },
-    'DraMariaAntonia':{
+    '69':{
     'location': '',
     'sessions': ['',]
     },
-    'DraMariaFerreira':{
+    '70':{
     'location': '',
     'sessions': ['',]
     },
-    'DraMariaJoao':{
+    '71':{
     'location': '',
     'sessions': ['',]
     },
-    'DraMarianaBettencourt':{
+    '72':{
     'location': '',
     'sessions': ['',]
     },
-    'DraMarianaChaves':{
+    '73':{
     'location': '',
     'sessions': ['',]
     },
-    'DraOlindaMarques':{
+    '74':{
     'location': '',
     'sessions': ['',]
     },
-    'DraPatriciaRocha':{
+    '75':{
     'location': '',
     'sessions': ['',]
     },
-    'DraPaulaBogalho':{
+    '76':{
     'location': '',
     'sessions': ['',]
     },
-    'DraReginaMedeiros':{
+    '77':{
     'location': '',
     'sessions': ['',]
     },
-    'DraRitaCarvalho':{
+    '78':{
     'location': '',
     'sessions': ['',]
     },
-    'DraRuteFerreira':{
+    '79':{
     'location': '',
     'sessions': ['',]
     },
-    'DraSandraPaiva':{
+    '80':{
     'location': '',
     'sessions': ['',]
     },
-    'DraSaraAmaral':{
+    '81':{
     'location': '',
     'sessions': ['',]
     },
-    'DraSaraFerreira':{
+    '82':{
     'location': '',
     'sessions': ['',]
     },
-    'DraSaraGaipo':{
+    '83':{
     'location': '',
     'sessions': ['',]
     },
-    'DraSilviaGuerra':{
+    '84':{
     'location': '',
     'sessions': ['',]
     },
-    'DraSofiaDuque':{
+    '85':{
     'location': '',
     'sessions': ['',]
     },
-    'DraSofiaTeixeira':{
+    '86':{
     'location': '',
     'sessions': ['',]
     },
-    'DraSoniaPratas':{
+    '87':{
     'location': '',
     'sessions': ['',]
     },
-    'DraTaniaParece':{
+    '88':{
     'location': '',
     'sessions': ['',]
     },
-    'DraTeresaPereira':{
+    '89':{
     'location': '',
     'sessions': ['',]
     },
-    'DraTeresaSancho':{
+    '90':{
     'location': '',
     'sessions': ['',]
     },
-    'DraTeresaSantos':{
+    '91':{
     'location': '',
     'sessions': ['',]
     },
-    'EnfFlavioToledo':{
+    '92':{
     'location': '',
     'sessions': ['',]
     },
-    'EnfManuelaMarques':{
+    '93':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorAndreCarvalho':{
+    '94':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorDavideCarvalho':{
+    '95':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorEduardLimbert':{
+    '96':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorJoaoBreda':{
+    '97':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorJoaoRaposo':{
+    '98':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorJoseIgnacio':{
+    '99':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorJulioMachado':{
+    '100':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorLuisRaposo':{
+    '101':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorManuelBicho':{
+    '102':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorManuelLemos':{
+    '103':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorManuelSobrinho':{
+    '104':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorMarioMascarenhas':{
+    '105':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorMichaelZimmermann':{
+    '106':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorMiguelMelo':{
+    '107':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorPedroMarques':{
+    '108':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorSilvaNunes':{
+    '109':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutorValerianoLeite':{
+    '110':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraAlexandraBento':{
+    '111':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraAnaPaula':{
+    '112':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraConceioCalhau':{
+    '113':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraFloraCorreia':{
+    '114':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraHelenaCardoso':{
+    '115':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraMariaJoao':{
+    '116':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraPaulaFreitas':{
+    '117':{
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraSniado':{
+    '118':{
+    'location': '',
+    'sessions': ['',]
+    },
+    '119':{
         'location': '',
         'sessions': ['',]
     },
@@ -489,40 +496,31 @@ const location = "endodiabnut2022/website/site-content/palestrantes/images"
 let speakersImages = []
 
 fs.readdirSync(location).forEach(file => {
-    let names = file.split('-')[0].split('_')
-
-    console.log(names)
+    let names = file.split('_')
 
     let fullname = ''
-    let speakerDataKey = `${names[0]}${names[1]}${names[2].split('.')[0]}`
-    if (names[0].slice(0, 4) === 'Prof'){
-        speakerDataKey += names[3].split('.')[0]
+    let title = ''
+    let nameArrayOffset = 1 // To skip key reference and title on name
+    let speakerDataKey = names[0]
+
+    if (names[1] === ' Prof') {
+        title = `${names[1]}. ${names[2]} `
+        nameArrayOffset = 2  // To skip key reference and double title on name
+    } else {
+        title = `${names[1]}. `
     }
 
-    // speakerDataKey = speakerDataKey.replace(/[^\x00-\x7F]/g, "");
-    speakerDataKey = speakerDataKey.replace(/[^a-zA-Z ]/g, "");
-
+    // build full name
     names.forEach((value, key) => {
-        console.log(value)
-        console.log(key)
-        console.log(names.length)
-
-        // if (!(value in ['.jpg', '.jpeg','.JPG','.png', ]) ) {
-            fullname += `${value.split('.')[0]}`
-        // }
-        if (key == 0) fullname += `.`
+        // Skips file extension
+        if (key > nameArrayOffset && !(value.includes('.'))) {
+            fullname += `${value}`
+        }
         fullname += ` `
     })
 
-    // TBR - Debugo for deploying
-    console.log('speakerDataKey: ')
-    console.log(speakerDataKey)
-    console.log('File: ')
-    console.log(file)
-    console.log('fullname: ')
-    console.log(fullname)
-
     let speaker = {
+        'title': title,
         'fullname': fullname,
         'image': file,
         'speakerDataKey': speakerDataKey,
@@ -531,5 +529,8 @@ fs.readdirSync(location).forEach(file => {
     }
     speakersImages.push(speaker)
 });
+
+// Sort array by full name before returning it.
+speakersImages.sort((a, b) => a.fullname.toLowerCase() > b.fullname.toLowerCase() ? 1 : -1)
 
 module.exports = speakersImages
