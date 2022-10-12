@@ -499,7 +499,8 @@ fs.readdirSync(location).forEach(file => {
         speakerDataKey += names[3].split('.')[0]
     }
 
-    speakerDataKey = speakerDataKey.replace(/[^\x00-\x7F]/g, "");
+    // speakerDataKey = speakerDataKey.replace(/[^\x00-\x7F]/g, "");
+    speakerDataKey = speakerDataKey.replace(/[^a-zA-Z ]/g, "");
 
     names.forEach((value, key) => {
         console.log(value)
