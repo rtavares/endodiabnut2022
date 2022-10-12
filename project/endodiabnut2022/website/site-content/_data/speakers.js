@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 const speakersData = {
-    'DrAndreMonteiro':{
+    'DrAndrMonteiro':{
     'location': 'PONTA DELGADA',
     'sessions': [[['Sessão 5'], ['Diabetes e Risco Cardiovascular'], ['sessao5']],]
     },
@@ -74,7 +74,7 @@ const speakersData = {
     'location': '',
     'sessions': ['',]
     },
-    'DrJoaoSergio':{
+    'DrJooSrgio':{
     'location': '',
     'sessions': ['',]
     },
@@ -90,7 +90,7 @@ const speakersData = {
     'location': '',
     'sessions': ['',]
     },
-    'DrJoseManuel':{
+    'DrJosManuel':{
     'location': '',
     'sessions': ['',]
     },
@@ -178,7 +178,7 @@ const speakersData = {
     'location': '',
     'sessions': ['',]
     },
-    'DraCidaliaPonte':{
+    'DraCidliaPonte':{
     'location': '',
     'sessions': ['',]
     },
@@ -458,7 +458,7 @@ const speakersData = {
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraConceicaoCalhau':{
+    'ProfDoutoraConceioCalhau':{
     'location': '',
     'sessions': ['',]
     },
@@ -478,7 +478,7 @@ const speakersData = {
     'location': '',
     'sessions': ['',]
     },
-    'ProfDoutoraSoniado':{
+    'ProfDoutoraSniado':{
         'location': '',
         'sessions': ['',]
     },
@@ -491,6 +491,8 @@ let speakersImages = []
 fs.readdirSync(location).forEach(file => {
     let names = file.split('-')[0].split('_')
 
+    console.log(names)
+
     let fullname = ''
     let speakerDataKey = `${names[0]}${names[1]}${names[2].split('.')[0]}`
     if (names[0].slice(0, 4) === 'Prof'){
@@ -500,7 +502,13 @@ fs.readdirSync(location).forEach(file => {
     speakerDataKey = speakerDataKey.replace(/[^\x00-\x7F]/g, "");
 
     names.forEach((value, key) => {
-        fullname += `${value}`
+        console.log(value)
+        console.log(key)
+        console.log(names.length)
+
+        // if (!(value in ['.jpg', '.jpeg','.JPG','.png', ]) ) {
+            fullname += `${value.split('.')[0]}`
+        // }
         if (key == 0) fullname += `.`
         fullname += ` `
     })
@@ -510,6 +518,8 @@ fs.readdirSync(location).forEach(file => {
     console.log(speakerDataKey)
     console.log('File: ')
     console.log(file)
+    console.log('fullname: ')
+    console.log(fullname)
 
     let speaker = {
         'fullname': fullname,
