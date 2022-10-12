@@ -486,8 +486,11 @@ const speakersData = {
     'sessions': ['',]
     },
     '119':{
-        'location': '',
-        'sessions': ['',]
+        'name': 'Luis Dias',
+        'location': 'PONTA DELGADA',
+        'sessions':[
+            [['Sessão 2'], ['Diabetes - Diagnóstico e Monitorização'], ['sessao2']],
+        ]
     },
 }
 
