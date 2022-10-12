@@ -142,7 +142,7 @@ const speakersData = {
     'location': '',
     'sessions': ['',]
     },
-    'Dra Teresa Regoundefined':{
+    'DraTeresaRego':{
     'location': '',
     'sessions': ['',]
     },
@@ -314,7 +314,7 @@ const speakersData = {
     'location': '',
     'sessions': ['',]
     },
-    'DraRegina Medeiros':{
+    'DraReginaMedeiros':{
     'location': '',
     'sessions': ['',]
     },
@@ -503,10 +503,6 @@ fs.readdirSync(location).forEach(file => {
         if (key == 0) fullname += `.`
         fullname += ` `
     })
-
-    // if (names[0].slice(0, 4) === 'Prof'){
-    //     fullname += ` ${names[3]}`
-    // }
 
     let speaker = {
         'fullname': fullname,
