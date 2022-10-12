@@ -3,7 +3,7 @@ layout: layouts/_components/base.njk
 ---
 <section class="bg-white p-4 rounded rounded-2xl">
 
-    <div class="text-center ">
+    <div class="text-center bold text-lg">
             PROGRAMA CIENTÍFICO <br>
     (PROVISÓRIO) <br>
     ORGANIZAÇÃO:
@@ -32,9 +32,9 @@ layout: layouts/_components/base.njk
         </div>
     </div>
 
-    <section class="grid grid-cols-3 gap-3">
+    <section class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3">
         {% for day in collections.programa25 | sortByDisplayOrder %}
-            <div class="program-index">
+            <div class="program-index prose">
                 <article class="text-lg flex-grow">
                     {{ day.data.content | safe }}
                 </article>
@@ -57,9 +57,9 @@ layout: layouts/_components/base.njk
             <a href="#top" class="p-1 border border-black chadow shadow-black shadow-lg bg-white text-black hover:shadow hover:shadow-black hover:shadow-2xl hover:p-4" title="Topo">^</a>
         </div>
     </div>
-    <section class="grid grid-cols-3 gap-4">
+    <section class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3">
         {% for day in collections.programa26 | sortByDisplayOrder %}
-            <div class="program-index">
+            <div class="program-index prose">
                 <article class="text-lg flex-grow">
                     {{ day.data.content | safe }}
                 </article>
@@ -82,9 +82,9 @@ layout: layouts/_components/base.njk
             <a href="#top" class="p-1 border border-black chadow shadow-black shadow-lg bg-white text-black hover:shadow hover:shadow-black hover:shadow-2xl hover:p-4" title="Topo">^</a>
         </div>
     </div>
-    <section class="grid grid-cols-3 gap-4">
+    <section class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3">
         {% for day in collections.programa27 | sortByDisplayOrder %}
-            <div class="program-index">
+            <div class="program-index prose">
                 <article class="text-lg flex-grow">
                     {{ day.data.content | safe }}
                 </article>
@@ -109,9 +109,9 @@ layout: layouts/_components/base.njk
             <a href="#top" class="p-1 border border-black chadow shadow-black shadow-lg bg-white text-black hover:shadow hover:shadow-black hover:shadow-2xl hover:p-4" title="Topo">^</a>
         </div>
     </div>
-    <section class="grid grid-cols-3 gap-4">
+    <section class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3">
         {% for day in collections.programa28 | sortByDisplayOrder %}
-            <div class="program-index">
+            <div class="program-index prose">
                 <article class="text-lg flex-grow">
                     {{ day.data.content | safe }}
                 </article>
