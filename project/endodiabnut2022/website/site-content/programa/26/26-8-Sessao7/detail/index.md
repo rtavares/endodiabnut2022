@@ -1,5 +1,6 @@
 ---
 layout: layouts/program-detail.njk
+permalink: "programa/sessao7/detail/"
 ---
 ### QUARTA-FEIRA 26  
 ### SESSÃO 7

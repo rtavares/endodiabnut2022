@@ -69,7 +69,7 @@
     }
 
     .program-index {
-        @apply flex flex-col border border-black p-3 rounded rounded-2xl shadow shadow-black shadow-lg prose;
+        @apply flex flex-col border border-black p-3 rounded rounded-2xl shadow shadow-black shadow-lg;
     }
 
     .animation-effect-out {

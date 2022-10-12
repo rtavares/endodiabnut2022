@@ -7,6 +7,7 @@ detail: 1
 ### QUARTA-FEIRA 26  
 ### SESSÃO 5
 ### Diabetes e Risco Cardiovascular
+
 MODERAÇÃO
 **PRESIDENTE**: • DR DINIS MARTINS (PONTA DELGADA)
 **MODERADORES**: • DRA DORA SARGENTO (LISBOA) /
