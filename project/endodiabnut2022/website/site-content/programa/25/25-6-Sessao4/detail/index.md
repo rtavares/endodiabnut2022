@@ -1,5 +1,6 @@
 ---
 layout: layouts/program-detail.njk
+permalink: "programa/sessao4/detail/"
 ---
 ### TERÇA-FEIRA 25    
 ### SESSÃO 4

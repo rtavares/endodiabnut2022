@@ -1,5 +1,6 @@
 ---
 layout: layouts/program-detail.njk
+permalink: "programa/sessao9/detail/"
 ---
 ### QUINTA-FEIRA 27  
 ### SESSÃO 9
