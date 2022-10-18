@@ -9,4 +9,5 @@ detail: 0
 14h 30m – 15h 15m   
 
 **Simpósio Satélite** – Abbott
+### Impacto do FreeStyle Libre na gestão da Diabetes
 :::

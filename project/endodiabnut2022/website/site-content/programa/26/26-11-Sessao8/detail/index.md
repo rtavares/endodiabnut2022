@@ -1,6 +1,5 @@
 ---
 layout: layouts/program-detail.njk
-permalink: "programa/sessao8/detail/"
 ---
 ### QUARTA-FEIRA 26  
 ### SESSÃO 8
@@ -8,7 +7,7 @@ permalink: "programa/sessao8/detail/"
 
 MODERAÇÃO
 **PRESIDENTE**: • PROF DOUTOR EDUARD LIMBERT (LISBOA)
-**MODERADORES**: • ROFa DOUTORA ANA PAULA BARBOSA (LISBOA)
+**MODERADORES**: • PROFa DOUTORA ANA PAULA BARBOSA (LISBOA)
 • DRA PAULA BOGALHO (LISBOA) 
 • DRA SÓNIA PRATAS (LOURES)
 

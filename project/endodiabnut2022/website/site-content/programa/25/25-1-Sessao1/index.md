@@ -3,7 +3,6 @@ layout: layouts/program.njk
 tags: programa25
 display_order: 2511
 detail: 1
-permalink: "programa/sessao1/"
 ---
 ### TERÇA-FEIRA 25  
 ::: center

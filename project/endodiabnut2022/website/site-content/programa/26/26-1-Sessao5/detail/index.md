@@ -1,6 +1,5 @@
 ---
 layout: layouts/program-detail.njk
-permalink: "programa/sessao5/detail/"
 ---
 ### QUARTA-FEIRA 26  
 ### SESSÃO 5
@@ -15,6 +14,6 @@ MODERAÇÃO
 09h 15m – 09h 30m – HTA NA DIABETES: INDIVIDUALIZAR AO LONGO DA VIDA
 • DR ANDRÉ MONTEIRO (PONTA DELGADA)
 09h 40m – 10h 00m – CONTRACEPÇÃO NA DIABETES
-• DR NUNO MACIEL (PONTA DELGADA)
+• DR JORGE VASCONCELOS (PONTA DELGADA)
 
 10h 00m – 10h 15m – DISCUSSÃO

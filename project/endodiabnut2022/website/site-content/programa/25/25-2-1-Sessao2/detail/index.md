@@ -1,6 +1,5 @@
 ---
 layout: layouts/program-detail.njk
-permalink: "programa/sessao2/detail/"
 ---
 **TERÇA-FEIRA 25**    
 **SESSÃO 2** - Diabetes - Diagnóstico e Monitorização
