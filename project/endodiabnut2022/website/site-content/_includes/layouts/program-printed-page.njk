@@ -2,9 +2,15 @@
 layout: layouts/_components/base.njk
 ---
 <section class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 text-gray-700 text-lg bg-white p-4 rounded rounded-2xl">
-      {% for page in programPages %}
+    {% set url_items = page.url.split('/') %}
+    {% set post_tag_filter = url_items[url_items.length -2] %}
+    url_items: {{ url_items }}
+    page.url : {{ page.url }}
+    Pagination: {{ pagination }}
+    Page: {{ page | debugObject }}
+
           <div class="p-4 pt-0 order program-index">
-              <a href="/programa-impresso/pagina/?p={{ page }}">
+              <a href="">
                   <img
                       class="order p-3 mx-auto w-fit object-cover object-center"
                       src="/programa-impresso/images/{{ page }}"
@@ -12,5 +18,4 @@ layout: layouts/_components/base.njk
                   >
               </a>
           </div>
-      {% endfor %}
 </section>
