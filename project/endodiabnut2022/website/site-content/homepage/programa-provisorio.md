@@ -3,15 +3,14 @@ layout: layouts/homepage.njk
 tags: homepage
 display_order: 200
 image: LogoEDN_2022_small.png
-title: 'Programa Provisório'
-link_target: "/_assets/images/programa-cientifico-provisorio-v3.pdf"
-link_target_blank_page: "yes"
+title: 'Programa Científico'
 ---
 
-Programa Científico
+::: link
+- [Programa detalhado](/programa/)
+:::
 
-### Provisório
+::: link
+- [Versão Impressa](/programa-impresso/)
+:::
 
-
-
-_Em breve será apresentado o programa definitivo._
