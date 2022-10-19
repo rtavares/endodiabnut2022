@@ -42,17 +42,17 @@ permalink: "/programa-impresso/pagina/{{ pagina.pageName | slug }}.html"
         <div class="bg-white p-4 grid grid-cols-3 justify-items-center">
             {% if pagination.href.previous %}
                 <a href="{{ pagination.href.previous }}">
-                    <img class="w-[40px]" src="/_assets/images/icons/left-arrow-icon.svg">
+                    <img alt="Previous page" title="Previous page" class="w-[40px]" src="/_assets/images/icons/left-arrow-icon.svg">
                 </a>
             {% else %}
                 <div></div>
             {% endif %}
             <a href="/programa-impresso/">
-                <img class="w-[40px]" src="/_assets/images/icons/return-icon.svg">
+                <img alt="Program index" title="Program index" class="w-[40px]" src="/_assets/images/icons/return-icon.svg">
             </a>
             {% if pagination.href.next %}
                 <a href="{{ pagination.href.next }}">
-                    <img class="w-[40px]" src="/_assets/images/icons/right-arrow-icon.svg">
+                    <img class="w-[40px]" alt="Next page" title="Next page"  src="/_assets/images/icons/right-arrow-icon.svg">
                 </a>
             {% else %}
                 <div></div>
