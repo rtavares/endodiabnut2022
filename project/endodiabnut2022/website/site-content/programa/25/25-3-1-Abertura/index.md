@@ -6,7 +6,7 @@ detail: 0
 ---
 ### TERÇA-FEIRA 25  
 ::: center
-11h 15m - 12h 15m
+12h 00m - 13h 00m
 **Sessão de Abertura**
 
 
