@@ -1,21 +1,25 @@
 ---
 layout: layouts/_components/base.njk
+pagination:
+    data: programPages
+    size: 1
+    alias: pagina
+permalink: "/programa-impresso/pagina/{{ pagina.pageName | slug }}.html"
 ---
-<section class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 text-gray-700 text-lg bg-white p-4 rounded rounded-2xl">
-    {% set url_items = page.url.split('/') %}
-    {% set post_tag_filter = url_items[url_items.length -2] %}
-    url_items: {{ url_items }}
-    page.url : {{ page.url }}
-    Pagination: {{ pagination }}
-    Page: {{ page | debugObject }}
-
-          <div class="p-4 pt-0 order program-index">
-              <a href="">
-                  <img
-                      class="order p-3 mx-auto w-fit object-cover object-center"
-                      src="/programa-impresso/images/{{ page }}"
-                      alt="Printed program - Page {{ page }}" title="Printed program - Page {{ page }}"
-                  >
-              </a>
+<!--<section class="grid grid-cols-3 text-gray-700 text-lg bg-white p-4 rounded rounded-2xl">-->
+<!--          <div class="bg-white p-4">-->
+<!--              Prev-->
+<!--          </div>-->
+        <a href="javascript:history.back()">
+          <div class="bg-white p-4">
+              <img
+                  class="w-full mx-auto border border-black rounded rounded-2xl shadow-black shadow-md "
+                  src="/programa-impresso/images/{{ pagina.imageFile }}"
+                  alt="Printed program - Page {{ pagina.pageName }}" title="Printed program - Page {{ pagina.pageName }}"
+              >
           </div>
-</section>
+        </a>
+<!--        <div class="bg-white p-4">-->
+<!--              Next-->
+<!--          </div>-->
+<!--</section>-->

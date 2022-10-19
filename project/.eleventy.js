@@ -32,6 +32,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary('md', configureMarkdownIt())
 
     // 404 page config
+    /*
     eleventyConfig.setBrowserSyncConfig({
         callbacks: {
           ready: function(err, bs) {
@@ -51,6 +52,8 @@ module.exports = function(eleventyConfig) {
           }
         }
     })
+
+     */
 
     return {
         dir: {
