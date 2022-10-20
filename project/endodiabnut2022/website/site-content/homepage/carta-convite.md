@@ -1,7 +1,7 @@
 ---
 layout: layouts/homepage.njk
 tags: homepage
-display_order: 100
+display_order: 10000
 image: logo-homepage.png
 title: 'Carta Convite'
 link_target: "carta-convite"
