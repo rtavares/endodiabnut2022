@@ -3,7 +3,7 @@ layout: layouts/program-detail.njk
 ---
 ### SEXTA-FEIRA 28  
 ::: center
-15h 50m – – 17h 10m 
+15h 50m – 17h 10m 
 :::
 ### SESSÃO 14
 ### Incongruência de Género

@@ -3,9 +3,11 @@ layout: layouts/program-detail.njk
 ---
 ### QUINTA-FEIRA 27  
 ::: center
-14h 30m – 18h 30m
+14h 30m – 16h 15m
 :::
-### IX Simpósio Satélite de Nutrição
+### IX Simpósio Satélite 
+### SIMPÓSIO DE NUTRIÇÃO
+
 ::: center
 ABERTURA
 :::

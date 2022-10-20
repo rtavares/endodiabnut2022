@@ -1,9 +1,10 @@
 ---
 layout: layouts/program-detail.njk
 ---
-**TERÇA-FEIRA 25**    
-**SESSÃO 2** - Diabetes - Diagnóstico e Monitorização
-MODERAÇÃO  
+### TERÇA-FEIRA 25    
+### SESSÃO 2
+## Diabetes - Diagnóstico e Monitorização
+
 **PRESIDENTE**: 
 • DR LUIS DIAS (PONTA DELGADA)    
 **MODERADORES**:    

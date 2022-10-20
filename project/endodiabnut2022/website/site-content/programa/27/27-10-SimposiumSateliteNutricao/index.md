@@ -5,7 +5,11 @@ display_order: 27100
 detail: 1
 ---
 ### QUINTA-FEIRA 27  
-### IX Simpósio Satélite de Nutrição
+::: center
+16h 45m – 18h 30m
+:::
+### IX Simpósio Satélite 
+### SIMPÓSIO DE NUTRIÇÃO
 
 ***MESA – 2 ALIMENTAÇÃO***
 

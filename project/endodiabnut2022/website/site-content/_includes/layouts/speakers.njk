@@ -12,17 +12,18 @@ layout: layouts/_components/base.njk
     #}
       {% for speaker in speakers %}
           <div class="p-4 pt-0 order program-index">
-
               <img class="sm:h-[400px] order p-3 mx-auto w-fit object-cover object-center" src="/palestrantes/images/{{ speaker.image }}" alt="{{ speaker.title }}{{ speaker.fullname }}" title="{{ speaker.title }}{{ speaker.fullname }}">
               <div class="m-4 bg-white ">
-                  <span class="hidden">speakerDataKey: {{ speaker.speakerDataKey }}</span>
+                  <span class="">speakerDataKey: {{ speaker.speakerDataKey }}</span>
+<!--                  <span class="hidden">speakerDataKey: {{ speaker.speakerDataKey }}</span>-->
                   <h1 class="bold title-font font-medium text-gray-900">{{ speaker.title }}{{ speaker.fullname }}<br>{{ speaker.location }}</h1>
                   <div>
                       {% for session in speaker.sessions %}
                           <div class="mt-3">
-                            <a class="bold" href="/programa/{{ session[2] }}/detail">{{ session[0] }}</a>
+                            <a class="bold" href="/programa/{{ session[3] }}">{{ session[0] }}</a>
+                             - {{ session[1] }}
                           </div>
-                          <a class="p-3 underline" href="/programa/{{ session[2] }}/detail">{{ session[1] }}</a>
+                          <a class="p-3 underline" href="/programa/{{ session[3] }}">{{ session[2] }}</a>
                       {% endfor %}
                   </div>
               </div>

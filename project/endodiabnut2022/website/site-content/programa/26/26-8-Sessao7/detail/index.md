@@ -3,9 +3,8 @@ layout: layouts/program-detail.njk
 ---
 ### QUARTA-FEIRA 26  
 ### SESSÃO 7
-### Suprarrenal e HTA Endócrina
+## Suprarrenal e HTA Endócrina
 
-MODERAÇÃO
 **PRESIDENTE**: • DRA OLINDA MARQUES (BRAGA)
 **MODERADORES**: • DRA TERESA PEREIRA (PORTO) /
 • DR SERAFIM ROSAS (LEIRIA)
