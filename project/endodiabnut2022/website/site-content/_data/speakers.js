@@ -1532,7 +1532,7 @@ fs.readdirSync(location).forEach(file => {
     let nameArrayOffset = 1 // To skip key reference and title on name
     let speakerDataKey = names[0]
 
-    if (names[1] === ' Prof') {
+    if (names[1].slice(0, 4) === 'Prof') {
         title = `${names[1]}. ${names[2]} `
         nameArrayOffset = 2  // To skip key reference and double title on name
     } else {
@@ -1550,7 +1550,7 @@ fs.readdirSync(location).forEach(file => {
 
     let speaker = {
         'title': title,
-        'fullname': fullname,
+        'fullname': fullname.trim(),
         'image': file,
         'speakerDataKey': speakerDataKey,
         'location': speakersData[speakerDataKey].location,
