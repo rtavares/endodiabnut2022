@@ -21,7 +21,7 @@ const speakersData = {
             [
                 ['Sessão 9'],
                 ["Quinta, 27"],
-                ['TIREOTOXICOSE – DO DIGNÓSTICO DIFERENCIAL À OPÇÃO TERAPêUTICA'],
+                ['TIREOTOXICOSE – DO DIGNÓSTICO DIFERENCIAL À OPÇÃO TERAPÊUTICA'],
                 ['27/27-1-Sessao9/detail/']
             ],
         ]
@@ -172,7 +172,7 @@ const speakersData = {
            [
                ['Sessão 9'],
                ["Quinta, 27"],
-               ['DISFUNÇÕES SUBCLíNICAS DA TIROIDEIA–QUEM TRATAR E QUANDO?'],
+               ['DISFUNÇÕES SUBCLÍNICAS DA TIROIDEIA–QUEM TRATAR E QUANDO?'],
                ['27/27-1-Sessao9/detail/']
            ]
        ]
@@ -184,7 +184,7 @@ const speakersData = {
            [
                ['Sessão 12'],
                ["Sexta, 28"],
-               ['HIRSUTIMO NOS CUIDADOS PRIMáRIOS DE SAÚDE'],
+               ['HIRSUTIMO NOS CUIDADOS PRIMÁRIOS DE SAÚDE'],
                ['28/28-3-Sessao12/detail/']
            ]
        ]
@@ -430,7 +430,7 @@ const speakersData = {
             [
                 ['Sessão 13'],
                 ['Sexta, 28'],
-                ['OBESIDADE INFANTIL – COMORBILIDADES E ABORDAGEM TERAPêUTICA'],
+                ['OBESIDADE INFANTIL – COMORBILIDADES E ABORDAGEM TERAPÊUTICA'],
                 ['28/28-6-Sessao13/detail/']
             ]
         ]
@@ -461,7 +461,7 @@ const speakersData = {
     },
     '38': {
         'name': 'Dra. Carolina Chaves',
-        'location': 'Ponta Delgada',
+        'location': 'PONTA DELGADA',
         'sessions': [
             [
                 ['Curso Satélite 1'],
@@ -533,7 +533,7 @@ const speakersData = {
     },
     '42': {
         'name': 'Dra. Cidália Ponte',
-        'location': 'Ponta Delgada',
+        'location': 'PONTA DELGADA',
         'sessions': [
             [
                 ['IX Simpósio Satélite - Mesa 1'],
@@ -574,14 +574,14 @@ const speakersData = {
             [
                 ['Sessão 3'],
                 ['Terça, 25'],
-                ['POLINEUROPATIA DIABéTICA: DA AVALIAÇÃO DIAGNÓSTICA À TERAPêUTICA'],
+                ['POLINEUROPATIA DIABéTICA: DA AVALIAÇÃO DIAGNÓSTICA À TERAPÊUTICA'],
                 ['25/25-4-Sessao3/detail/']
             ]
         ]
     },
     '46': {
         'name': 'Dra. Cláudia Meneses',
-        'location': 'Angra do Heroísmo',
+        'location': 'ANGRA DO HEROÍSMO',
         'sessions': [
             [
                 ['IX Simpósio Satélite - Mesa 1'],
@@ -662,7 +662,7 @@ const speakersData = {
             [
                 ['IX Simpósio Satélite - Mesa 2'],
                 ["Quinta, 27"],
-                ['NGESTÃO DE SAL, ATÉ QUANTO A REDUÇÃO É SAUDáVEL?'],
+                ['INGESTÃO DE SAL, ATÉ QUANTO A REDUÇÃO É SAUDÁVEL?'],
                 ['27/27-8-SimposiumSateliteNutricao/detail/']
             ]
         ]
@@ -765,7 +765,7 @@ const speakersData = {
     },
     '61': {
     'name': 'Dra. Laura Lemos',
-    'location': 'Angra do Heroísmo',
+    'location': 'ANGRA DO HEROÍSMO',
     'sessions':[
             [
                 ['IX Simpósio Satélite - Mesa 2'],
@@ -867,7 +867,7 @@ const speakersData = {
     },
     '69':  {
         'name': 'Dra. Maria Ferreira',
-        'location': 'Ponta Delgada',
+        'location': 'PONTA DELGADA',
         'sessions': [
             [
                 ['IX Simpósio Satélite - Mesa 1'],
@@ -1130,7 +1130,7 @@ const speakersData = {
     },
     '89': {
         'name': 'Dra. Teresa Rego',
-        'location': 'Angra do Heroísmo',
+        'location': 'ANGRA DO HEROÍSMO',
         'sessions': [
             [
                 ['Sessão 5'],
@@ -1154,7 +1154,7 @@ const speakersData = {
     },
     '91': {
     'name': 'Dra. Teresa Santos',
-    'location': 'Angra do Heroísmo',
+    'location': 'ANGRA DO HEROÍSMO',
     'sessions':[
             [
                 ['IX Simpósio Satélite - Mesa 1'],
@@ -1171,7 +1171,7 @@ const speakersData = {
             [
                 ['CURSO SATÉLITE 1 - Sala 2'],
                 ["Quinta, 27"],
-                ['spetos Práticos da Insulinoterapia'],
+                ['Aspetos Práticos da Insulinoterapia'],
                 ['27/27-11-CursoSatelite1/detail/'],
             ]
         ]
@@ -1183,7 +1183,7 @@ const speakersData = {
             [
                 ['CURSO SATÉLITE 1 - Sala 2'],
                 ["Quinta, 27"],
-                ['spetos Práticos da Insulinoterapia'],
+                ['Aspetos Práticos da Insulinoterapia'],
                 ['27/27-11-CursoSatelite1/detail/'],
             ]
         ]
@@ -1490,7 +1490,7 @@ const speakersData = {
             [
                 ['Sessão 3'],
                 ['Terça, 25'],
-                ['ABORDAGEM DA ESTEATOSE HEPáTICA'],
+                ['ABORDAGEM DA ESTEATOSE HEPÁTICA'],
                 ['25/25-4-Sessao3/detail/']
             ]
         ]
