@@ -370,9 +370,9 @@ const speakersData = {
        ]
     },
     '31': {
-    'name': 'Dr. Silvestre Abreu',
-    'location': 'FUNCHAL',
-    'sessions':[
+        'name': 'Dr. Silvestre Abreu',
+        'location': 'FUNCHAL',
+        'sessions':[
             [
                 ['Sessão 10'],
                 ['Quinta, 27'],
@@ -656,9 +656,9 @@ const speakersData = {
         ]
     },
     '53': {
-    'name': 'Dra. Ines Mendes',
-    'location': 'PONTA DELGADA',
-    'sessions':[
+        'name': 'Dra. Ines Mendes',
+        'location': 'PONTA DELGADA',
+        'sessions':[
             [
                 ['IX Simpósio Satélite - Mesa 2'],
                 ["Quinta, 27"],
@@ -722,9 +722,9 @@ const speakersData = {
         ]
     },
     '58': {
-    'name': 'Dra. Ivone Machado',
-    'location': 'PONTA DELGADA',
-    'sessions':[
+        'name': 'Dra. Ivone Machado',
+        'location': 'PONTA DELGADA',
+        'sessions':[
             [
                 ['IX Simpósio Satélite - Mesa 1'],
                 ["Quinta, 27"],
@@ -1189,7 +1189,7 @@ const speakersData = {
         ]
     },
     '94':  {
-       'name': 'Dra. Sofia Teixeira',
+       'name': 'Dr. André Carvalho',
        'location': 'PORTO',
        'sessions': [
            [
@@ -1508,7 +1508,7 @@ const speakersData = {
        ]
     },
     '119': {
-        'name': 'Luis Dias',
+        'name': 'Dr. Luis Dias',
         'location': 'PONTA DELGADA',
         'sessions':[
             [
@@ -1553,6 +1553,7 @@ fs.readdirSync(location).forEach(file => {
         'fullname': fullname.trim(),
         'image': file,
         'speakerDataKey': speakerDataKey,
+        'titleAndName': speakersData[speakerDataKey].name,
         'location': speakersData[speakerDataKey].location,
         'sessions': speakersData[speakerDataKey].sessions
     }

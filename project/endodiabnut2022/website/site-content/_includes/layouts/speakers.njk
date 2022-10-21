@@ -15,7 +15,7 @@ layout: layouts/_components/base.njk
               <img class="sm:h-[400px] p-3 mx-auto w-fit object-cover object-center" src="/palestrantes/images/{{ speaker.image }}" alt="{{ speaker.title }}{{ speaker.fullname }}" title="{{ speaker.title }}{{ speaker.fullname }}">
               <div class="m-4 bg-white ">
                   <span class="hidden">speakerDataKey: {{ speaker.speakerDataKey }}</span>
-                  <h1 class="bold title-font font-medium text-gray-900">{{ speaker.title }}{{ speaker.fullname }}<br>{{ speaker.location }}</h1>
+                  <h1 class="bold title-font font-medium text-gray-900">{{ speaker.titleAndName }}<br>{{ speaker.location }}</h1>
                   <div>
                       {% for session in speaker.sessions %}
                           <div class="mt-3">
