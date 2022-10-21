@@ -23,9 +23,9 @@ layout: layouts/_components/base.njk
                    {% endif %}
                 >
             {% endif %}
-              <div class="p-4 pt-0 order">
+              <div class="p-4 pt-0">
                   {% if homepage_block.data.image %}
-                    <img class="shadow order p-3 mx-auto w-fit object-cover object-center" src="/_assets/images/{{ homepage_block.data.image }}" alt="{{ homepage_block.data.title }}" title="{{ homepage_block.data.title }}">
+                    <img class="shadow p-3 mx-auto w-fit object-cover object-center" src="/_assets/images/{{ homepage_block.data.image }}" alt="{{ homepage_block.data.title }}" title="{{ homepage_block.data.title }}">
                   {% endif %}
                     <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{ homepage_block.data.title }}</h1>
                     <p class="leading-relaxed mb-3">
