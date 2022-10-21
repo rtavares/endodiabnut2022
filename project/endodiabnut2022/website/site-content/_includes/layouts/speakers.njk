@@ -11,8 +11,8 @@ layout: layouts/_components/base.njk
       {% endfor %}
     #}
       {% for speaker in speakers %}
-          <div class="p-4 pt-0 order program-index">
-              <img class="sm:h-[400px] order p-3 mx-auto w-fit object-cover object-center" src="/palestrantes/images/{{ speaker.image }}" alt="{{ speaker.title }}{{ speaker.fullname }}" title="{{ speaker.title }}{{ speaker.fullname }}">
+          <div class="p-4 pt-0 program-index">
+              <img class="sm:h-[400px] p-3 mx-auto w-fit object-cover object-center" src="/palestrantes/images/{{ speaker.image }}" alt="{{ speaker.title }}{{ speaker.fullname }}" title="{{ speaker.title }}{{ speaker.fullname }}">
               <div class="m-4 bg-white ">
                   <span class="hidden">speakerDataKey: {{ speaker.speakerDataKey }}</span>
                   <h1 class="bold title-font font-medium text-gray-900">{{ speaker.title }}{{ speaker.fullname }}<br>{{ speaker.location }}</h1>

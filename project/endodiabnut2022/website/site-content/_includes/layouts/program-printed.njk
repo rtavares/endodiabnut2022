@@ -3,10 +3,10 @@ layout: layouts/_components/base.njk
 ---
 <section class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 text-gray-700 text-lg bg-white p-4 rounded rounded-2xl">
       {% for page in programPages %}
-          <div class="p-4 pt-0 order program-index">
+          <div class="p-4 pt-0 program-index">
               <a href="/programa-impresso/pagina/{{ page.pageName }}.html">
                   <img
-                      class="order p-3 mx-auto w-fit object-cover object-center"
+                      class="sm:hover:scale-[2] hover:border-black hover:shadow-black hover:shadow-2xl rounded-2xl mx-auto w-fit object-cover object-center"
                       src="/programa-impresso/images/{{ page.imageFile }}"
                       alt="Printed program - Page {{ page.pageName }}" title="Printed program - Page {{ page.pageName }}"
                   >
