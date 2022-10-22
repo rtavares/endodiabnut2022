@@ -1,6 +1,6 @@
 ---
 layout: layouts/carta-convite.njk
-page_title: "Medalha |"
+page_title: "Medalha "
 ---
 # Imagem final da Medalha do Congresso
 
