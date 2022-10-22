@@ -1,6 +1,6 @@
 ---
 layout: layouts/cartaz.njk
-page_title: "Cartaz | "
+page_title: "Cartaz"
 ---
 
 
