@@ -1,19 +1,11 @@
 ---
 layout: layouts/_components/base.njk
 ---
-<section class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 text-gray-700 text-lg bg-white p-4 rounded rounded-2xl">
-    {#
-      {% for speaker in speakers %}
-        '{{ speaker.speakerDataKey }}':{ <br>
-            'location': '', <br>
-            'sessions': ['',] <br>
-        }, <br>
-      {% endfor %}
-    #}
+<section class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-3 text-gray-700 text-lg bg-white bg-opacity-[.90] p-4 rounded rounded-2xl">
       {% for speaker in speakers %}
           <div class="p-4 pt-0 program-index">
-              <img class="sm:h-[400px] p-3 mx-auto w-fit object-cover object-center" src="/palestrantes/images/{{ speaker.image }}" alt="{{ speaker.title }}{{ speaker.fullname }}" title="{{ speaker.title }}{{ speaker.fullname }}">
-              <div class="m-4 bg-white ">
+              <img class="sm:h-[400px] p-3 mx-auto w-fit object-cover object-center rounded-2xl" src="/palestrantes/images/{{ speaker.image }}" alt="{{ speaker.title }}{{ speaker.fullname }}" title="{{ speaker.title }}{{ speaker.fullname }}">
+              <div class="m-4">
                   <span class="hidden">speakerDataKey: {{ speaker.speakerDataKey }}</span>
                   <h1 class="bold title-font font-medium text-gray-900">{{ speaker.titleAndName }}<br>{{ speaker.location }}</h1>
                   <div>

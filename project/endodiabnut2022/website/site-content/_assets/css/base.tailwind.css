@@ -60,10 +60,6 @@
         box-shadow: 10px 10px 15px lightblue;
     }
 
-    .main {
-        opacity: 0.92;
-    }
-
     .pad-top-12 {
         @apply pt-12;
     }
