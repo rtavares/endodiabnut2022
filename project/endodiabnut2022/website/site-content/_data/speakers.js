@@ -1016,8 +1016,8 @@ const speakersData = {
        ]
     },
     '80': {
-       'name': 'Dr. Ricardo Capitão',
-       'location': 'ALMADA',
+       'name': 'Dra. Sara Amaral',
+       'location': 'LISBOA',
        'sessions': [
            [
                ['Sessão 4'],
