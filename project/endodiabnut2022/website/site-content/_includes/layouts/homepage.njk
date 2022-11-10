@@ -3,15 +3,19 @@ layout: layouts/_components/base.njk
 ---
 <section class="text-gray-700 text-lg">
 
+<!--
     <div class="mt-4 pt-4 w-full">
         <div class="p-2 text-center bg-gray-100 text-xl">Foi assim em 2019!...</div>
         <div class="carousel bg-gray-100">
-            <!--     from _data       -->
+            < !--     from _data       -- >
+            {# commnent #}
             {% for image in slideshowImages %}
                 <div class="p-2"><img alt="Congresso 2019" src="/slideshow/images/{{ image }}"></div>
             {% endfor %}
+            {# endcommnent #}
         </div>
     </div>
+-->
 
     <div class="grid sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 mt-1">
       {% for homepage_block in collections.homepage | sortByDisplayOrder %}
