@@ -40,3 +40,9 @@ image: EDN_Roundel_small.png
 :::
 :::
 
+::: center
+::: link
+[Videos](https://youtube.com/playlist?list=PLsWNt2Rs8qcyxZ8ALZfsnpzmPosNRm4jh){target="_blank"}
+:::
+:::
+
