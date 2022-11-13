@@ -7,7 +7,7 @@ image: EDN_Roundel_small.png
 ---
 
 ::: center
-![Terça-feira, 25](_assets/images/fotos-edn-2022.png)
+![Terça-feira, 25](_assets/images/fotos-edn-2022-smaller.png)
 :::
 
 ::: center
