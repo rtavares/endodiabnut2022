@@ -42,7 +42,8 @@ image: EDN_Roundel_small.png
 
 ::: center
 ::: link
-[Videos](https://youtube.com/playlist?list=PLsWNt2Rs8qcyxZ8ALZfsnpzmPosNRm4jh){target="_blank"}
+[![Videos](_assets/images/YouTube_icon.png)](https://www.youtube.com/@endodiabnut){target="_blank"}[ Videos](https://www.youtube.com/@endodiabnut){target="_blank"}
 :::
 :::
+
 
